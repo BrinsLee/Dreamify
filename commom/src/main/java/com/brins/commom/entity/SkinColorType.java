@@ -1,0 +1,74 @@
+package com.brins.commom.entity;
+
+public enum SkinColorType {
+
+    // cc
+    COMMON_WIDGET,
+
+    HEADLINE_TEXT,
+
+    PRIMARY_TEXT,
+
+    SECONDARY_TEXT,
+
+    HEADLINE_PRESSED_TEXT,
+
+    PRIMARY_DISABLE_TEXT,
+
+    LOCAL_TEXT,
+
+    //
+    BASIC_WIDGET,
+
+    BASIC_ALPHA_WIDGET,
+
+    TAB,
+
+    TAB_COLOR,
+
+    LINE,
+
+    BOLD_LINE,
+
+    TITLE,
+
+    PLAYINGBAR_PROGRESS,
+
+    PLAYINGBAR_PRIMARY_TEXT,
+
+    MSG_BOX,
+
+    LABEL,
+
+    MSG_LABEL_SHADOW,
+
+    PLAYERPAGE_CONTROL,
+
+    DATE_TEXT,
+
+    DATE_PRESSED_TEXT,
+
+    DATE_UNSELECTED_TEXT,
+
+    USER_RANK,
+
+    COMMENT_NAME,
+    //be 30%
+    BASIC_WIDGET_DISABLE,
+
+    //gc
+    GRADIENT_COLOR,
+
+    //tnc
+    TITLE_PRIMARY_COLOR,
+
+    LIST_TITLE_COLOR,
+
+    LIST_TITLE_UNSELECTED_COLOR,
+
+    INPUT_BOX,
+
+    RADIO_RIGHTTRIANGLE,
+
+    SWITCH_BTN
+}

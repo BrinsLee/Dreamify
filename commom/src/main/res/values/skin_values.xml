@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 8.0皮肤配置信息 -->
+<resources>
+    <bool name="skin_is_custom">false</bool>         <!-- 是否是自定义皮肤 -->
+    <bool name="skin_is_solid">false</bool>          <!-- 是否是纯色皮肤 -->
+    <string name="skin_version">1.15.0</string>      <!-- 皮肤版本号,改动时，需要同步修改SkinResourceUtils.getInnerSkinVersion异常返回值 -->
+    <bool name="skin_vip_flag">false</bool>         <!-- 是否为vip皮肤 -->
+    <bool name="skin_music_flag">false</bool>       <!-- 是否为音乐包皮肤 -->
+    <bool name="skin_deep_flag">false</bool>        <!-- 歌单页面计算色值开关、并标识是否是深色主题 -->
+    <bool name="skin_is_dark_status_bar">false</bool>   <!--是否是黑色状态栏文字主题-->
+
+    <!-- 开关 -->
+    <bool name="skin_switch_a">true</bool>          <!-- 控制我喜欢、歌单、下载、最近文字显示开关 -->
+    <bool name="skin_switch_b">true</bool>          <!-- 控制我乐库、电台、酷群文字显示开关 -->
+    <bool name="skin_switch_c">true</bool>          <!-- 控制本地音乐下横条显示开关 -->
+    <bool name="skin_switch_loading">false</bool>   <!-- 控酷小狗Loading开关 -->
+    <bool name="skin_function_icon">true</bool>    <!-- 控制首页launcher是否为功能图标 -->
+
+    <!-- 部分页面控件所需透明度 -->
+    <integer name="skin_kuqun_blur_alpha">100</integer> <!-- 0~100 -->
+
+    <integer name="skin_type">0</integer>    <!-- 皮肤类型，0为默认，1为极简，2为耀夜，其他加不加无所谓 -->
+</resources>

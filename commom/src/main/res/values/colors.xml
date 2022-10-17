@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="listDivider">#FFDADADA</color>
+    <color name="listDivider_1">#FF666666</color>
+    <color name="listview_item_press_color">#19000000</color>
+
+    <color name="search_item_press_color">#08000000</color>
+    <color name="bg_default_color">#edFFFFFF</color>
+    <color name="grade_text_color">#462804</color>
+    <color name="grade_text_bg_color">#ffe293</color>
+
+    <color name="vip_tab_item_color">#d3a058</color>
+    <color name="x_common_loadiing_icon_normal_color">#00baff</color>
+    <color name="x_common_loadiing_change_color">#FF6C00</color>
+
+    <color name="icon_bg">#1c82fe</color>
+
+    <!-- 第一套字体颜色 -->
+    <color name="theme_text_color">#FF000000</color>
+    <color name="theme_text_color_no_black">#FF000000</color>
+    <color name="max_text_color">#FF000000</color>
+    <color name="notification_max_text_color_light">#FF000000</color>
+    <color name="notification_second_text_color_light">#FF8c8c8c</color>
+    <color name="notification_max_text_color_dark">#FFffffff</color>
+    <color name="notification_second_text_color_dark">#FFbfbfbf</color>
+    <color name="middle_text_color">#FF666666</color>
+    <color name="min_text_color">#FF999999</color>
+    <color name="local_search_highlight">#e85e0b</color>
+    <color name="register_hint_text_color" tools:ignore="UnusedResources">#FFB9B9B9</color>
+    <color name="register_text_color" tools:ignore="UnusedResources">#FF3C3C3C</color>
+    <color name="color_bar_text_color">#FF000000</color>
+    <color name="skin_tab_radiobutton_search_color">#FF262928</color>
+    <color name="skin_tab_radiobutton_bg_color">#FF262928</color>
+    <color name="skin_tab_radiobutton_lbs_color" tools:ignore="UnusedResources">#FFFFFFFF</color>
+    <color name="skin_list_divider_color">#d2d2d2</color>
+    <color name="skin_color_divider_color">#d2d2d2</color>
+    <color name="skin_color_corner_divider_color">#d2d2d2</color>
+    <color name="skin_divider_color_with_transparent">#d2d2d2</color>
+    <color name="share_bottom_bar">#FFF7F7F7</color>
+    <color name="share_bottom_bar_line">#FFD9D9D9</color>
+
+    <!-- 主体颜色 -->
+    <color name="head_warn_totalsize_color" tools:ignore="UnusedResources">#FF5DAF2F</color>
+    <color name="head_warn_text_color" tools:ignore="UnusedResources">#FF626262</color>
+    <color name="theme_grid_color_0_default">#FF86B9E4</color>
+    <color name="theme_grid_color_0_pressed">#FF3D91D9</color>
+    <color name="theme_grid_color_1_default">#FFFC99B1</color>
+    <color name="theme_grid_color_1_pressed">#FFE25E7E</color>
+    <color name="theme_class_color_0_default">#00000000</color>
+    <color name="theme_class_color_0_pressed">#00000000</color>
+    <color name="theme_class_color_1_default">#00000000</color>
+    <color name="theme_class_color_1_pressed">#00000000</color>
+    <color name="theme_class_color_2_default">#FFE88230</color>
+    <color name="theme_class_color_2_pressed">#FFE37822</color>
+    <!--  -->
+    <color name="theme_color_0_default">#FF249EF6</color>
+    <color name="theme_color_0_pressed">#99249EF6</color>
+    <color name="theme_color_6_default">#FF474747</color>
+    <!--
+    249EF6 5FCA41  F0666C  5B8DE7  F9A42A  EC55CB 41B9B7
+    <color name="theme_color_0_default">#FF249EF6</color>
+    <color name="theme_color_0_pressed">#99249EF6</color>
+    <color name="theme_color_1_default">#FF5FCA41</color>
+    <color name="theme_color_1_pressed">#995FCA41</color>
+    <color name="theme_color_2_default">#FFF0666C</color>
+    <color name="theme_color_2_pressed">#99F0666C</color>
+    <color name="theme_color_3_default">#FF5B8DE7</color>
+    <color name="theme_color_3_pressed">#995B8DE7</color>
+    <color name="theme_color_4_default">#FFF9A42A</color>
+    <color name="theme_color_4_pressed">#99F9A42A</color>
+    <color name="theme_color_5_default">#FFEC55CB</color>
+    <color name="theme_color_5_pressed">#99EC55CB</color>
+    <color name="theme_color_6_default">#FF474747</color>
+    <color name="theme_color_6_pressed">#99474747</color>
+    -->
+    <!-- 7.0 new color -->
+    <color name="theme_skin_color_0_default">#249ef6</color>
+    <color name="theme_skin_color_1_default">#ea5454</color>
+    <color name="theme_skin_color_2_default">#f05a9a</color>
+    <color name="theme_skin_color_3_default">#c050d8</color>
+    <color name="theme_skin_color_4_default">#9453ed</color>
+    <color name="theme_skin_color_5_default">#4b68e4</color>
+    <color name="theme_skin_color_6_default">#2ca2f9</color>
+    <color name="theme_skin_color_7_default">#04bccd</color>
+    <color name="theme_skin_color_8_default">#292929</color>
+    <color name="theme_skin_color_9_default">#1a599a</color>
+    <color name="theme_skin_color_10_default">#f2744d</color>
+    <color name="theme_skin_color_11_default">#f9a92a</color>
+    <color name="theme_skin_color_12_default">#69c84e</color>
+    <color name="theme_skin_color_13_default">#1eba76</color>
+    <color name="theme_skin_color_14_default">#1fbe9e</color>
+    <color name="theme_skin_color_15_default">#a1a1a1</color>
+    <color name="theme_skin_color_16_default">#d675d5</color>
+    <color name="theme_skin_color_17_default">#f26a8a</color>
+    <color name="theme_skin_color_18_default">#d3ad72</color>
+    <color name="theme_skin_color_19_default">#bfc770</color>
+    <color name="theme_skin_color_20_default">#78d5d6</color>
+    <color name="theme_skin_color_21_default">#349178</color>
+
+    <!-- 网络单曲播放控制bar -->
+    <color name="common_netsong_list_header_bar_bg">#FFFFFFFF</color>
+    <color name="common_netsong_list_header_bg">#0b222222</color>
+
+    <!-- 网络单曲播放控制bar -->
+    <color name="common_netsong_list_header_bar_bg_1">#cc000000</color>
+    <color name="common_netsong_list_header_bg_1">#4c000000</color>
+
+    <!-- 第二套字体颜色(深色) -->
+    <color name="max_text_color_1">#FFFFFFFF</color>
+    <color name="middle_text_color_1">#FFDDDDDD</color>
+    <color name="min_text_color_1">#FFBBBBBB</color>
+    <color name="color_bar_text_color_1">#FFFFFFFF</color>
+    <color name="bg_rightmenu_color">#80000000</color>
+    <color name="bg_rightmenu_color_1">#33FFFFFF</color>
+
+    <!-- 7.0登录 -->
+    <color name="kg_login_text_name">#848484</color>
+    <color name="kg_login_text_toast">#5d4833</color>
+    <color name="kg_login_text_toast_bg">#f4efcf</color>
+    <color name="kg_login_text_openlat" tools:ignore="UnusedResources">#333333</color>
+    <color name="kg_login_text_button" tools:ignore="UnusedResources">#ffffff</color>
+    <color name="kg_login_edt_line">#cecece</color>
+    <color name="gray" tools:ignore="UnusedResources">#FF878787</color>
+    <color name="login_account_color">#FFA7A7A7</color>
+    <color name="list_item_color">#f4f4f4</color>
+    <color name="black">#FF000000</color>
+    <color name="main_edittext_tint_color">#FF919494</color>
+    <!-- 7.0 reg -->
+    <color name="kg_reg_text_color">#333333</color>
+    <color name="kg_reg_text_color_hint">#bbbbbb</color>
+    <!-- 通用标题栏 -->
+    <color name="common_title_bar_pressed_color">#38000000</color>
+    <color name="scrollbar_handle_color">#4D000000</color>
+    <color name="dialog_btn_default_color">#FFFFFFFF</color>
+    <color name="dialog_btn_pressed_color">#FFe4e4e4</color>
+    <!-- 7.0注册 -->
+    <color name="kg_reg_text_by_username">#249ef6</color>
+
+    <!-- DialogOfflineSetting -->
+
+    <color name="primary_default_text_color">#FF000000</color>
+    <color name="title_button_default">#4C000000</color>
+    <color name="title_button_pressed">#7F000000</color>
+    <color name="cacheColorHint">#00000000</color>
+    <color name="letter_view_bg">#4C1C1C1C</color>
+    <color name="letter_view_bg_1">#4CFFFFFF</color>
+    <color name="letter_choose_view_bg_1">#80FFFFFF</color>
+    <color name="titlemenu_divider_color">#F5F5F5</color>
+    <color name="menu_list_dividing_item_color">#FFEBEBEB</color>
+    <!-- 不进行换肤的字体颜色 -->
+    <color name="no_skin_max_text_color">#FF000000</color>
+    <!-- loading color -->
+    <color name="kg_loading_text_color">#848484</color>
+    <color name="list_common_bar_header_divider" tools:ignore="UnusedResources">#dbdbdb</color>
+    <color name="list_divider_color">#d2d2d2</color>
+
+    <!-- playing song item background -->
+    <color name="kg_playing_song_item_bg_color" tools:ignore="UnusedResources">#08000000</color>
+
+    <!-- 繁星首页 -->
+    <color name="main_text_black">#333333</color>
+    <color name="main_text_gray">#848484</color>
+    <color name="main_text_white">#A8FFFFFF</color>
+    <color name="motor_btn_blue" tools:ignore="UnusedResources">#249ef6</color>
+    <!-- 7.0 fanxing 侧边栏 -->
+
+    <color name="ktv_main_text_color">#333333</color>
+    <color name="ktv_main_text_gray">#888888</color>
+    <color name="ting_main_default_text_gray">#14888888</color>
+    <drawable name="ktv_list_item_click_bg">#0e000000</drawable><!--6%不透明-->
+    <drawable name="cc_share_cover_selector_bg">#444C54</drawable>
+    <color name="cc_share_tab_indicate">#0090FF</color>
+    <color name="kg_cc_icon_splash_start">#00FFFFFF</color>
+    <color name="kg_cc_icon_splash_end">#33FFFFFF</color>
+
+    <color name="ktv_skeleton_color">#0C000000</color><!--骨架背景-->
+    <color name="ktv_kingpk_onlone_color">#5CE646</color>
+    <color name="ktv_common_yellow">#ffe032</color>
+
+    <color name="ktv_prompt_bar_background_white">#F7FFFFFF</color>
+    <color name="ktv_prompt_bar_background_black">#F7252731</color>
+    <color name="ktv_prompt_bar_left_text_color">#FF70AFEE</color>
+
+    <color name="ktv_center_recommend_list_item_bg1">#E3E0FF</color>
+    <color name="ktv_center_recommend_list_item_bg2">#DBECFF</color>
+    <color name="ktv_center_recommend_list_item_bg3">#F0E0FF</color>
+    <color name="ktv_center_recommend_list_item_bg4">#DBE4FF</color>
+    <color name="ktv_center_recommend_list_item_label_text1">#8D84F0</color>
+    <color name="ktv_center_recommend_list_item_label_text2">#4590E6</color>
+    <color name="ktv_center_recommend_list_item_label_text3">#BA84F0</color>
+    <color name="ktv_center_recommend_list_item_label_text4">#738FE6</color>
+
+    <!-- navigation color -->
+    <color name="ktv_navigation_top_bar_bg" tools:ignore="UnusedResources">#242424</color>
+    <color name="ktv_navigation_item_background_bg_pressed">#19FFFFFF</color>
+    <drawable name="ktv_navigation_bottom_bar_bg" tools:ignore="UnusedResources">#383838</drawable>
+    <color name="ktv_invite_background_color" tools:ignore="UnusedResources">#F5F5F5</color>
+
+    <color name="ktv_slide_menu_item_press">#19FFFFFF</color>
+
+    <!--switch-->
+    <color name="ktv_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="ktv_dim_foreground_holo_dark">#bebebe</color>
+    <color name="ktv_background_holo_light">#fff3f3f3</color>
+    <color name="ktv_bright_foreground_holo_dark">@color/ktv_background_holo_light</color>
+    <color name="ktv_bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+
+    <!-- v8弹出框 -->
+    <color name="dialog8_title">#333333</color>
+    <color name="dialog8_divider_thin">#dfdfdf</color>
+    <color name="dialog8_pop_color1">#333333</color>
+    <color name="dialog8_pop_color2">#0295ff</color>
+    <color name="dialog8_negative_button_text">#333333</color>
+    <color name="dialog8_positive_button_text">#379ee6</color>
+    <color name="dialog8_option_text">#379ee6</color>
+    <color name="dialog8_bg_color">#f4f4f4</color>
+    <color name="dialog8_body_message">#333333</color>
+    <!-- 底部滑出dialog -->
+    <color name="dialog8_divider_thick">#dfdfdf</color>
+    <color name="player_dialog_hint_bold">#10ffffff</color>
+    <color name="player_dialog_hint">#22ffffff</color>
+    <!-- dialog选项点击效果 -->
+    <drawable name="dialog8_optionrow_bg_nor">#00000000</drawable>
+    <drawable name="dialog8_optionrow_bg_press">#08000000</drawable>
+
+    <!-- 消息中心 -->
+    <color name="comm_msg_item_delete">#ef3331</color>
+    <color name="comm_msg_item_disturb">#aeb1b3</color>
+
+    <!--v8账号-->
+    <color name="v8_kg_login_line">#12000000</color>
+    <color name="v8_kg_login_edt_line">#264bb4ff</color>
+    <color name="v8_kg_other_login">#888888</color>
+    <color name="v8_remenber_acount_text_color">#666666</color>
+    <color name="v8_remenber_account_no_selected_text">#FFFFFF</color>
+    <color name="v8_remenber_account_selected_text">#06000000</color>
+    <color name="v8_skinchange_black">#33000000</color>
+    <color name="v8_edittext_white">#33FFFFFF</color>
+    <color name="v8_edittext_black">#33000000</color>
+    <color name="v8_skinchange_white">#17FFFFFF</color>
+
+    <color name="v8_scan_seleted">#48000000</color>
+
+    <color name="half_alph_black">#80000000</color>
+
+
+    <color name="v8_vip_title_content">#2299ed</color>
+    <color name="kcoin_hight_light">#1e88d4</color>
+    <color name="v8_vip_title_click_content">#4D2299ed</color>
+    <color name="v8_vip_title_click_text">#4Dffffff</color>
+    <color name="v8_vip_title_bg">#0A000000</color>
+    <color name="v8_vip_item_content">#333333</color>
+    <color name="v8_vip_item_second_content">#bbbbbb</color>
+    <color name="v8_vip_more_detail">#cccccc</color>
+    <color name="v8_vip_line">#14000000</color>
+    <color name="v8_edit_text_hint">#888888</color>
+
+    <color name="splash_ad_text_shadow">#cccccccc</color>
+
+    <color name="ktv_marketing_img_color">#666666</color>
+
+    <color name="mini_lyr_background_color">#FF85efaf</color>
+    <color name="mini_lyr_front_color">#FF00D8FF</color>
+
+    <!-- mini桌面歌词前景色 -->
+    <color name="minilyric_select_front_color1">#FF00D8FF</color>
+    <color name="minilyric_select_front_color2">#FFD155FF</color>
+    <color name="minilyric_select_front_color3">#FFFFE951</color>
+    <color name="minilyric_select_front_color4">#FFF85D48</color>
+    <color name="minilyric_select_front_color5">#FF43EB5F</color>
+    <color name="common_follow_num_text_color">#ffffff</color>
+
+    <color name="background_color">#FFFFFF</color>
+    <color name="list_item_press_color">#FFe4e4e4</color>
+
+    <color name="guide_title_color_black">#333333</color>
+    <color name="guide_title_color_blue">#0090ff</color>
+    <color name="guide_main_bg_color">#F9F9F9</color>
+
+    <color name="guide_main_bg_top_color">#f8f8f8</color>
+
+    <!--唱-->
+    <color name="ktv_minibar_name_bg_color">#CC4A4A4A</color>
+    <!--25%不透明-->
+    <color name="ktv_black_25_bg">#40000000</color>
+    <color name="ktv_group_dynamic_mask_bg_color">#FF9C00</color>
+    <drawable name="ktv_dynamic_play_layout_pressed">#0e000000</drawable>
+    <color name="ktv_segue_second">#99FFFFFF</color>
+
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="hifi_detail">#3c87f7</color>
+    <color name="hifi_detail_pressed">#4C3c87f7</color>
+
+    <!-- 音乐云盘引导 -->
+    <color name="music_cloud_guide_text_color">#333333</color>
+
+    <color name="song_item_sq_mark_color">#da9809</color>
+    <color name="song_item_hq_mark_color">#365c90</color>
+    <color name="song_item_new_mark_color">#fed58d</color>
+    <color name="flow_dialog_positive_color">#FF00A9FF</color>
+
+    <color name="audio_item_default_line">#14000000</color>
+    <color name="audio_item_pressed_color">#1E88D4</color>
+
+    <color name="young_mode_black_333333">#333333</color>
+    <color name="young_mode_black_888888">#888888</color>
+    <color name="elder_mode_primary_blue">#0171DC</color>
+    <color name="elder_mode_playerbar_bottom_line">#1a000000</color>
+    <!-- 首页视频模块 -->
+    <color name="fx_video_red">#E6FF3366</color>
+    <!--导入歌单title background-->
+    <color name="kg_webview_title_background">#0091ff</color>
+
+    <color name="top_custom_color">#b2000000</color>
+
+    <color name="skin_nt_90alpha">#e5000000</color>
+
+    <color name="skin_nt_76alpha">#b8000000</color>
+
+    <color name="drive_mode_tab_pressed_color">#0090ff</color>
+    <!-- 偶遇 -->
+    <color name="meet_by_accident_red_dot_text_color">#836df2</color>
+    <color name="meet_accident_tab_text_color_normal">#A0A0A0</color>
+    <color name="meet_accident_tab_text_color_select">#000000</color>
+    <color name="color_ffdd22">#ffdd22</color>
+
+    <color name="kg_music_fee_v3_dialog_privilege_text_color">#806640</color>
+
+    <color name="color_1e92ff">#1e92ff</color>
+    <color name="color_1bab5b">#1bab5b</color>
+    <color name="color_a5a6a8">#a5a6a8</color>
+    <color name="color_0090ff">#0090ff</color>
+    <color name="color_00baff">#00baff</color>
+    <color name="color_15c56d">#15c56d</color>
+    <color name="color_b9b9c6">#b9b9c6</color>
+    <color name="color_a1a1b7">#a1a1b7</color>
+    <color name="color_80838c">#80838c</color>
+    <color name="color_c9c9d7">#C9C9D7</color>
+    <color name="color_713b1c">#713B1C</color>
+    <color name="color_f8e9ca">#F8E9CA</color>
+    <color name="color_f1d598">#F1D598</color>
+    <color name="skin_center_custom_tip_bg_color">#99000000</color>
+
+    <color name="kg_playing_queue_red">#ffe44444</color>
+
+    <color name="skin_third_text">#BCBCBC</color>              <!--QT-->
+
+    <!--miniapp-->
+    <color name="miniapp_about_intro">#484848</color>
+
+    <color name="color_e4e4e5">#e4e4e5</color>
+    <color name="kg_special_category_vip_tab_color">#f3cb80</color>
+
+    <color name="percent20black">#33000000</color>
+    <color name="percent60black">#99000000</color>
+    <color name="percent70black">#b2000000</color>
+    <color name="percent80black">#cc000000</color>
+    <color name="color_ffa131">#ffa131</color>
+    <color name="color_4eb2ff">#4eb2ff</color>
+    <color name="color_8f9091">#8f9091</color>
+    <color name="percent15white">#21ffffff</color>
+    <color name="percent20white">#33ffffff</color>
+    <color name="percent40white">#66FFFFFF</color>
+    <color name="percent60white">#99ffffff</color>
+    <color name="percent70white">#b2ffffff</color>
+    <color name="percent80white">#ccffffff</color>
+    <color name="percent85white">#d8ffffff</color>
+
+    <!--相册广场主颜色-->
+    <color name="album_square_main_color">#0090FF</color>
+    <color name="album_square_background_color">#fafafa</color>
+    <color name="album_square_indicator_color">#00BAFF</color>
+    <color name="album_square_publish_gray">#80ffffff</color>
+    <color name="album_square_text_color_gray">#666666</color>
+    <color name="album_square_dialog_text_color">#0090FF</color>
+    <color name="album_square_aggregate_back_gray">#ff1f1f1f</color>
+
+    <!--相册广场主颜色2-->
+    <color name="album_square_red100">#FFFF5068</color>
+    <color name="album_square_green000">#ff30cda5</color>
+    <color name="album_square_blue100">#FF0090FF</color>
+    <color name="album_square_blue200">#FF00BAFF</color>
+    <color name="album_square_gray600">#FF282930</color>
+    <color name="album_square_gray500">#FF3C3D41</color>
+    <color name="album_square_gray400">#FF6D6E76</color>
+    <color name="album_square_gray300">#FFA0A3A9</color>
+    <color name="album_square_gray200">#FFE0E3E7</color>
+    <color name="album_square_gray100">#FFF2F5F9</color>
+    <color name="album_square_gray000">#FFF8FAFC</color>
+
+
+    <!--歌手等级-->
+    <color name="singer_level_detail_color">#1E88D3</color>
+    <color name="kg_top_bar_bg_color">#2191fe</color>
+
+    <color name="kg_x_main_menu_panel">#49000000</color>
+
+    <color name="player_circle_fill_color">#28ffffff</color>
+    <color name="player_circle_out_color">#28000000</color>
+
+    <!--登录-->
+    <color name="login_input_edit_text_color">#212121</color>
+    <color name="login_input_edit_icon_color">#B9B9C6</color>
+
+    <color name="swipe_tab_item_without_skin_normal">#888888</color>
+    <color name="swipe_tab_item_without_skin_select">#333333</color>
+    <color name="playlist_expert_item_bg">#FAFAFA</color>
+
+    <color name="circle_ripple_color">#89D1FF</color>
+
+    <color name="color_8846FF">#8846FF</color>
+
+    <color name="color_091A29">#091A29</color>
+    <color name="color_848484">#848484</color>
+    <drawable name="cc_share_player_bg">#091A29</drawable>
+
+    <color name="color_b3000000">#b3000000</color>
+    <color name="color_552710">#552710</color>
+    <color name="color_ffc400">#ffc400</color>
+    <color name="color_baa9a0">#baa9a0</color>
+    <color name="color_fffaf2">#fffaf2</color>
+    <color name="color_ffffbd00">#ffffbd00</color>
+    <color name="color_755441">#755441</color>
+    <color name="color_f65700">#f65700</color>
+    <color name="color_4c0044b2">#4c0044b2</color>
+    <color name="color_1AF4F4F4">#1AF4F4F4</color>
+    <color name="color_B326293A">#B326293A</color>
+
+    <drawable name="black_70_drawable">#b3000000</drawable>
+
+    <color name="color_ebedf4">#EBEDF4</color>
+    <color name="color_9da3b3">#9DA3B3</color>
+    <color name="color_1e1f21">#1E1F21</color>
+    <color name="color_ff0090ff">#ff0090ff</color>
+    <color name="color_f7f7fa">#F7F7FA</color>
+    <color name="color_f2f3fa">#F2F3FA</color>
+    <color name="color_ffff9900">#FFFF9900</color>
+
+    <color name="color_fffcc177">#FFFCC177</color>
+
+    <color name="color_ffffd29a">#FFFFD29A</color>
+
+    <color name="color_ffd3a974">#FFD3A974</color>
+    <color name="color_ffd0954a">#FFD0954A</color>
+
+    <color name="color_ffcb9f68">#FFCB9F68</color>
+    <color name="color_ffc38537">#FFC38537</color>
+    <color name="color_ffffbd6b">#FFFFBD6B</color>
+
+    <color name="color_select_idol_perspective_highlight">#FF058BE9</color>
+    <color name="color_DEBF8C">#DEBF8C</color>
+
+    <color name="player_popup_menu_item_circle_bg">#00ffffff</color>
+    <color name="player_popup_menu_item_lyric_circle_bg">#14ffffff</color>
+    <color name="player_tab_text_color">@color/white_70alpha</color>
+    <color name="player_tab_text_color_highlight">@color/white</color>
+    <color name="player_tab_text_color_eq_selected">@color/black_65</color>
+    <color name="player_tab_text_color_eq_selected_highlight">@color/black_85</color>
+
+    <color name="immerse_mv_background">#FF111111</color>
+    <color name="common_vip_over_dialog_time_color">#FFE63418</color>
+    <color name="common_vip_over_dialog_price_color">#FF291304</color>
+    <color name="common_vip_over_dialog_discount_color">#FFA18F7D</color>
+
+    <color name="common_vip_over_dialog_title_color">#FF432A11</color>
+    <color name="common_vip_over_dialog_title_line_color">#FFC9B79D</color>
+    <color name="common_vip_over_dialog_privilege_icon_color">#FFC99A64</color>
+    <color name="common_vip_over_dialog_privilege_text_color">#FF5E3913</color>
+    <color name="common_vip_over_dialog_old_price_color">#FF947439</color>
+    <color name="common_vip_over_dialog_btn_color">#FF4A160A</color>
+
+    <color name="common_music_over_dialog_title_color">#FF2C4465</color>
+    <color name="common_music_over_dialog_title_line_color">#FF91A9C9</color>
+    <color name="common_music_over_dialog_privilege_icon_color">#FF6282BB</color>
+    <color name="common_music_over_dialog_privilege_text_color">#FF526689</color>
+    <color name="common_music_over_dialog_old_price_color">#FF6D89BA</color>
+
+    <color name="follow_listen_female_circle_ripple_color">#FF77B1</color>
+    <color name="follow_listen_male_circle_ripple_color">#78FFE5</color>
+    <color name="follow_listen_friend_list_invite_text_color">#17202F</color>
+    <color name="follow_listen_online_flag_shape_solid_color">#83FF6B</color>
+
+    <color name="personfm_robot_dialog_name_sample">#818894</color>
+    <color name="personfm_robot_dialog_desc_sample">#99556677</color>
+    <color name="personfm_robot_dialog_robot_default">#4d556677</color>
+
+    <color name="color_4b545b_alpha30">#4D4B545B</color>
+    <color name="kg_rec_kk_city_tag_bg">#FF00BAFF</color>
+    <color name="kg_rec_kk_follow_tag_bg">#FF000000</color>
+
+    <color name="personfm_yyt_bg">#140090ff</color>
+
+    <color name="color_6277c0_8alpha">#146277C0</color>
+    <color name="color_6277c0_4alpha">#0A6277C0</color>
+    <color name="color_00a9ff">#00A9FF</color>
+    <color name="color_00a9ff_8alpha">#1400A9FF</color>
+    <color name="color_00a9ff_10alpha">#1A00A9FF</color>
+    <color name="color_00a9ff_30alpha">#4D00A9FF</color>
+    <color name="color_00a9ff_50alpha">#8000A9FF</color>
+    <color name="color_556677_30alpha">#4D556677</color>
+    <color name="color_556677_20alpha">#33556677</color>
+    <color name="color_818894">#818894</color>
+    <color name="color_4b3a51_57alpha">#914B3A51</color>
+    <color name="color_00A9FF_4alpha">#0A00A9FF</color>
+    <color name="color_FFFFFF_6alpha">#99FFFFFF</color>
+    <color name="color_black_50">#80000000</color>
+
+    <color name="birthday_card_top_bg_mask">#dbffffff</color>
+
+    <color name="color_556677">#556677</color>
+    <color name="color_4D4B545B">#4D4B545B</color>
+    <color name="color_1A00BAFF">#1A00BAFF</color>
+    <color name="color_9900BAFF">#9900BAFF</color>
+
+    <color name="common_shadow_color">#296277C0</color>
+
+    <color name="kg11_main_bg_color_simple">#F6F7FB</color>
+    <color name="kg11_main_bg_color_dark">#1E2026</color>
+
+    <color name="kg11_card_set_bg">#F0FAFF</color><!--听首页、我的页卡片设置背景色-->
+    <color name="kg11_card_set_bg2">#F6F7Fb</color><!--听首页、我的页卡片设置背景色-->
+
+    <color name="kg11_img_mask_color">#08000000</color>
+
+    <color name="kg11_setting_message_color">#B2BDFF</color>
+    <color name="kg11_setting_network_color">#BBF2A8</color>
+    <color name="kg11_setting_play_download_color">#FFD6B2</color>
+    <color name="kg11_setting_lyric_color">#FFC9E7</color>
+    <color name="kg11_setting_function_color">#FFF09C</color>
+    <color name="kg11_setting_teenage_color">#7FE0BB</color>
+    <color name="kg11_setting_update_color">#FFC8C7</color>
+    <color name="kg11_setting_about_color">#87D6FF</color>
+    <color name="kg11_setting_clear_cache_color">#9CC6FF</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <!--switch_btn-->
+    <color name="skin_switch_btn">#296277c0</color>
+
+    <!--RR-->
+    <color name="skin_radio_righttriangle">#ffffe7e5</color>
+
+</resources>

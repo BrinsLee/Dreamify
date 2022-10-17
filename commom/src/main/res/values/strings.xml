@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="loading_tips_secondary">网络较慢，正在努力加载</string>
+    <string name="loading_tips_primary">加载中，请稍候</string>
+    <string name="skin_version">1.15.0</string>
+
+    <string name="ktv_service_error_no_net">加载失败，轻触屏幕重试</string>
+    <string name="no_network">未找到可用的网络连接</string>
+
+    <!-- 换肤之颜色 -->
+    <string name="st_color_changed_key" tools:ignore="UnusedResources">COLOR_CHANGED</string>
+    <string name="st_state_color_id_key">STATE_COLOR_ID</string>
+    <string name="st_color_id_key" tools:ignore="UnusedResources">COLOR_ID</string>
+    <string name="st_color_id_index_key">COLOR_ID_INDEX</string>
+    <string name="st_custom_color_key" tools:ignore="UnusedResources">CUSTOM_COLOR_KEY</string>
+    <string name="st_custom_light_color_key" tools:ignore="UnusedResources">CUSTOM_LIGHT_COLOR_KEY</string>
+    <string name="st_custom_high_light_color_key" tools:ignore="UnusedResources">CUSTOM_HIGH_LIGHT_COLOR_KEY</string>
+    <string name="st_use_custom_color_key">USE_CUSTOM_COLOR_KEY</string>
+    <string name="st_custom_color_array_key">CUSTOM_COLOR_ARRAY_KEY</string>
+    <string name="st_skin_brightness_key" tools:ignore="UnusedResources">SKIN_BRIGHTNESS_KEY</string>
+    <!-- 换肤之背景 -->
+    <string name="st_skin_changed_key" tools:ignore="UnusedResources">V6_SKIN_CHANGED</string>
+    <string name="st_bg_id_index_key">V6_BG_ID_INDEX</string>
+    <string name="st_custom_bg_key">V6_CUSTOM_BG_KEY</string>
+    <string name="st_use_custom_bg_key">V6_USE_CUSTOM_BG_KEY</string>
+    <string name="st_use_default_bg_key">V6_USE_DEFAULT_BG_KEY</string>
+    <string name="st_custom_bg_array_new_key">V6_CUSTOM_BG_ARRAY_NEW_KEY</string>
+    <string name="st_use_download_bg_key">V6_USE_DOWNLOAD_BG_KEY</string>
+    <string name="st_download_bg_key">V6_DOWNLOAD_BG_KEY</string>
+    <!-- 6.0皮肤颜色 -->
+    <string name="st_color_index_key">V6_COLOR_INDEX</string>
+    <string name="st_str_color_key">V6_STR_COLOR_KEY</string>
+    <string name="st_skin_light_color_key">V6_SKIN_LIGHT_COLOR_KEY</string>
+    <string name="st_skin_high_light_color_key">V6_SKIN_HIGH_LIGHT_COLOR_KEY</string>
+    <!-- 7.0图标换颜色 -->
+    <string name="skin_icon_color_changed_key">V7_SKIN_ICON_COLOR_CHANGED_KEY</string>
+    <string name="skin_bg_color_changed_key">V7_SKIN_BG_COLOR_CHANGED_KEY</string>
+    <string name="skin_bg_color_pressed_dark_key">V7_SKIN_BG_COLOR_PRESSED_DARK_KEY</string>
+    <string name="skin_bg_color_pressed_light_key">V7_SKIN_BG_COLOR_PRESSED_LIGHT_KEY</string>
+    <string name="skin_view_bg_color_changed_key">V7_SKIN_VIEW_BG_COLOR_CHANGED_KEY</string>
+    <string name="skin_view_bg_img_changed_key">V7_SKIN_VIEW_BG_IMG_CHANGED_KEY</string>
+    <string name="skin_v6_downloaded_pics_dealt_key">V6_SKIN_V6_DOWNLOADED_PICS_DEALT_KEY</string>
+    <string name="skin_v7_downloaded_pics_dealt_key">V6_SKIN_V6_DOWNLOADED_PICS_DEALT_KEY</string>
+    <string name="dex_fail_lack_of_space">手机空间不足，无法进入这个神秘的地方。\n请先清理出%dM空间再来试试吧！</string>
+    <string name="dex_fail_other">额，这个神秘的地方暂时被火星劫持了。\n稍等再来试一下吧！</string>
+
+    <!-- 在线皮肤颜色 -->
+    <string name="skin_online_bg_color_string_key">SKIN_ONLINE_BG_COLOR_STRING_KEY</string>
+</resources>

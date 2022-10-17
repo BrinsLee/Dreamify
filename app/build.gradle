@@ -1,0 +1,49 @@
+plugins {
+  id 'com.android.application'
+  id 'org.jetbrains.kotlin.android'
+  id 'kotlin-kapt'
+  id 'kotlin-android'
+}
+def androidID = rootProject.ext.androidId
+def appID = rootProject.ext.appId
+android {
+  compileSdkVersion androidID.compileSdkVersion
+
+  defaultConfig {
+    applicationId appID.app
+    minSdkVersion androidID.minSdkVersion
+    targetSdkVersion androidID.targetSdkVersion
+    versionCode androidID.versionCode
+    versionName androidID.versionName
+
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+  kotlinOptions {
+    jvmTarget = '1.8'
+  }
+}
+
+kapt {
+  arguments {
+    arg("AROUTER_MODULE_NAME", project.getName())
+  }
+}
+
+dependencies {
+  implementation fileTree(dir: "libs", include: ["*.jar"])
+  api rootProject.ext.supportLibs
+  // ARouter
+  implementation "com.alibaba:arouter-api:${rootProject.ext.dependVersion.arouter_api}"
+  kapt "com.alibaba:arouter-compiler:${rootProject.ext.dependVersion.arouter_compiler}"
+
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="36dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_view_kg11_common_loading_toast">
+
+    <com.brins.commom.widget.MiniLoadingView
+        android:id="@+id/v_base_loading"
+        android:layout_width="19.5dp"
+        android:layout_height="19.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"/>
+
+    <com.kugou.uilib.widget.imageview.KGUIImageView
+        android:id="@+id/iv_failed"
+        android:layout_width="19.5dp"
+        android:layout_height="19.5dp"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/ic_kg11_small_loading_failed"/>
+
+    <com.kugou.uilib.widget.textview.KGUITextView
+        android:id="@+id/tv_loading_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:includeFontPadding="false"
+        android:text="正在加载，请稍候"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>

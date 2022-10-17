@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- setting界面的圆角的半径 -->
+    <dimen name="preference_round_radius">8dip</dimen>
+    <dimen name="player_seeker_thumb_offset" tools:ignore="UnusedResources">20dip</dimen>
+    <dimen name="playing_bar_seeker_thumb_offset" tools:ignore="UnusedResources">15dip</dimen>
+    <dimen name="menu_dialog_line_radius">2.5dip</dimen>
+    <!-- 登陆界面 -->
+    <dimen name="listen_slider_header_size">42dip</dimen>
+    <dimen name="love_login_root_linearlayout_paddingLeft">17dip</dimen>
+    <dimen name="love_login_root_linearlayout_paddingRight">17dip</dimen>
+    <dimen name="love_login_username_linearlayout_layout_marginTop">35dip</dimen>
+    <dimen name="love_login_password_linearlayout_layout_marginTop" tools:ignore="UnusedResources">
+        52dip
+    </dimen>
+    <dimen name="love_login_btn_marginTop">21dip</dimen>
+    <dimen name="kg_love_login_open_account_linearlayout_layout_marginTop">15dip</dimen>
+    <dimen name="kg_love_login_weibo_img_marginTop">15dip</dimen>
+    <dimen name="love_login_relativelayout_layout_marginRight" tools:ignore="UnusedResources">5dip
+    </dimen>
+    <dimen name="love_login_edittext_height">50dip</dimen>
+    <dimen name="love_login_edittext_width" tools:ignore="UnusedResources">65dip</dimen>
+    <dimen name="love_login_edittext_paddingLeft" tools:ignore="UnusedResources">55dip</dimen>
+    <dimen name="love_login_textview_layout_marginLeft" tools:ignore="UnusedResources">10dip</dimen>
+    <dimen name="kg_love_login_list_height">46dip</dimen>
+    <dimen name="kg_love_login_forgot_passwd_marginTop">50dip</dimen>
+    <dimen name="textLargeSize">18dip</dimen>
+    <dimen name="textMediumSize">14dip</dimen>
+    <dimen name="kg_runner_tv_speed_size">24dip</dimen>
+    <dimen name="textEntryLabelSize">13dip</dimen>
+    <dimen name="textMinSize">12dip</dimen>
+    <dimen name="textSuperMinSize">11dip</dimen>
+    <dimen name="textExMediumSize">16dip</dimen>
+    <dimen name="textSize10">10dip</dimen>
+    <dimen name="textSize14">14dip</dimen>
+    <dimen name="textSize15">15dip</dimen>
+    <dimen name="textNaviPrimarySize">16dip</dimen>
+    <dimen name="textKanMVSize">17dip</dimen>
+    <dimen name="textAlbumBuycountSize">13dip</dimen>
+    <dimen name="text9dipSize">9dip</dimen>
+    <dimen name="textSmallSize" tools:ignore="UnusedResources">10dip</dimen>
+    <dimen name="searchMaintextMediumSize" tools:ignore="UnusedResources">14dip</dimen>
+    <dimen name="subscribeTextSize" tools:ignore="UnusedResources">15dip</dimen>
+    <dimen name="textExMinSize">13dip</dimen>
+    <dimen name="loading_layout_marginbottom">75dip</dimen>
+    <dimen name="playing_bar_height_without_shadow">65dip</dimen>
+    <dimen name="playing_listenpart_bar_height_without_shadow">30dip</dimen>
+    <dimen name="comm_main_top_padding">0dip</dimen>
+    <dimen name="playing_view_padding">10dp</dimen>
+    <!-- 7.0注册 -->
+    <dimen name="kg_reg_fragment_titlebar_title">18dip</dimen>
+    <dimen name="kg_reg_edittext_marginleft">10dip</dimen>
+    <!-- 编辑框光标左移 -->
+    <dimen name="edittextpaddingLeft">10dip</dimen>
+
+    <!-- 公共toast -->
+    <dimen name="custom_toast_width">200dip</dimen>
+    <dimen name="custom_toast_height">130dip</dimen>
+
+    <dimen name="navigation_header_icon_size">60dip</dimen>
+
+    <dimen name="kg_dis_super_small_text_size">11sp</dimen>
+
+    <!-- 弹出框 -->
+    <dimen name="dialog_height">250dip</dimen>
+    <dimen name="dialog_width">294dip</dimen>
+    <dimen name="dialog_width_horizontal" tools:ignore="UnusedResources">394dip</dimen>
+    <dimen name="dialog_height_horizontal" tools:ignore="UnusedResources">250dip</dimen>
+    <dimen name="dialog_margin_top" tools:ignore="UnusedResources">50dip</dimen>
+    <dimen name="dialog_margin_bottom" tools:ignore="UnusedResources">50dip</dimen>
+    <dimen name="dialog_content_min_height" tools:ignore="UnusedResources">100dip</dimen>
+    <dimen name="dialog_title_bar_height" tools:ignore="UnusedResources">50dip</dimen>
+    <dimen name="dialog_select_title_bar_height">55dip</dimen>
+    <dimen name="dialog_bottom_bar_height">50dip</dimen>
+
+    <dimen name="dialog_share_list_height" tools:ignore="UnusedResources">200dip</dimen>
+    <dimen name="dialog_divider_view_hight" tools:ignore="UnusedResources">2px</dimen>
+    <dimen name="dialog_add_music_height" tools:ignore="UnusedResources">294dip</dimen>
+    <dimen name="dialog_add_music_width" tools:ignore="UnusedResources">280dip</dimen>
+    <dimen name="dialog_common_title_layout_marginLeft">15dip</dimen>
+    <dimen name="dialog_common_title_layout_marginRight">15dip</dimen>
+    <dimen name="dialog_btn_layout_margin">2dip</dimen>
+
+    <dimen name="dialog_title_text_size">20dip</dimen>
+
+    <!-- 通用标题栏 -->
+    <dimen name="common_title_bar_height">45dip</dimen>
+    <dimen name="common_title_album_height">60dip</dimen>
+    <dimen name="common_title_bar_icon_width">40dip</dimen>
+    <dimen name="common_title_bar_icon_text_gap">5dp</dimen>
+    <dimen name="common_title_bar_text_margin_left">45dp</dimen>
+    <dimen name="common_title_bar_text_width">230dip</dimen>
+    <dimen name="common_title_bar_text_button_padding_left">10dip</dimen>
+    <dimen name="common_title_bar_text_button_padding_right">10dip</dimen>
+    <dimen name="common_title_bar_text_button_drawable_padding">5dip</dimen>
+    <dimen name="common_title_bar_text_button_height">27dip</dimen>
+    <dimen name="common_title_bar_text_to_right">12dip</dimen>
+    <dimen name="common_title_bar_text_margin">80dip</dimen>
+    <dimen name="common_title_bar_text_margin_without_btn">50dip</dimen>
+    <dimen name="common_title_bar_text_secondary_margin_right">15dip</dimen>
+
+    <dimen name="common_search_bar_height">43dip</dimen>
+    <dimen name="common_search_bar_button_height">27dip</dimen>
+    <dimen name="common_search_bar_top_margin">3dip</dimen>
+    <dimen name="common_search_bar_bottom_margin">13dip</dimen>
+
+    <dimen name="main_bar_title_text_size">18dip</dimen>
+    <dimen name="title_button_radius">3dp</dimen>
+    <dimen name="channel_list_item_height">57dip</dimen>
+    <dimen name="playlist_update_layout_height" tools:ignore="UnusedResources">45dip</dimen>
+    <dimen name="bills_detail_slideheader_bottombar_content_height" tools:ignore="UnusedResources">
+        55dip
+    </dimen>
+    <dimen name="radio_dialog_radius">3dp</dimen>
+    <dimen name="arrow_offset">5dp</dimen>
+
+    <dimen name="title_menu_width">200dip</dimen>
+    <dimen name="title_menu_item_height">43dip</dimen>
+    <dimen name="title_menu_item_exheight" tools:ignore="UnusedResources">54dip</dimen>
+    <dimen name="title_menu_item_paddingleft">2dip</dimen>
+    <dimen name="title_menu_item_marginleft">13dip</dimen>
+    <dimen name="title_menu_item_match_switch_open_drawable_padding">9dp</dimen>
+    <dimen name="title_menu_item_match_switch_close_drawable_padding">6dp</dimen>
+    <dimen name="title_menu_item_wifiautodownload_open_drawable_padding">8dp</dimen>
+    <dimen name="title_menu_item_wifiautodownload_close_drawable_padding">7dp</dimen>
+    <dimen name="list_item_height">52dip</dimen>
+    <dimen name="list_item_height_11">54dip</dimen>
+    <dimen name="search_list_two_item_height">67dip</dimen>
+    <dimen name="search_list_three_item_height">78dip</dimen>
+    <dimen name="music_location_layout_margin_right_without_letter">55dp</dimen>
+    <dimen name="music_location_layout_margin_right_with_letter">70dp</dimen>
+    <dimen name="local_music_location_layout_margin_right_without_letter">47dp</dimen>
+    <dimen name="local_music_location_layout_margin_right_with_letter">62dp</dimen>
+    <dimen name="title_menu_item_icon_height">18dip</dimen>
+
+    <dimen name="title_special_icon_width">32dp</dimen>
+
+    <dimen name="comm_title_left_margin">52dip</dimen>
+
+
+    <dimen name="player_queue_width" tools:ignore="UnusedResources">280dip</dimen>
+    <dimen name="player_queue_height" tools:ignore="UnusedResources">410dip</dimen>
+    <dimen name="player_channel_queue_height" tools:ignore="UnusedResources">380dip</dimen>
+    <dimen name="player_queue_list_height" tools:ignore="UnusedResources">50dip</dimen>
+    <dimen name="player_queue_list_icon_size" tools:ignore="UnusedResources">30dip</dimen>
+
+    <dimen name="player_playback_bg_height" tools:ignore="UnusedResources">80dip</dimen>
+    <dimen name="player_playback_panel_height" tools:ignore="UnusedResources">120dip</dimen>
+    <dimen name="player_mini_lyric_bottom_margin" tools:ignore="UnusedResources">175dip</dimen>
+    <dimen name="player_playback_btn_size" tools:ignore="UnusedResources">60dip</dimen>
+    <dimen name="player_ctrl_btn_prew_next_size">40dp</dimen>
+    <dimen name="player_ctrl_btn_play_stop_size">65dp</dimen>
+    <dimen name="player_playback_btn_height_from_bottom" tools:ignore="UnusedResources">100dip
+    </dimen>
+    <dimen name="player_radio_playback_btn_height_from_bottom" tools:ignore="UnusedResources">
+        150dip
+    </dimen>
+    <dimen name="player_playback_btn_margin_bottom" tools:ignore="UnusedResources">15dip</dimen>
+    <dimen name="player_playback_btn_margin_left" tools:ignore="UnusedResources">10dip</dimen>
+    <dimen name="player_playback_btn_margin_right" tools:ignore="UnusedResources">10dip</dimen>
+
+    <dimen name="playing_bar_seeker_thumb_size" tools:ignore="UnusedResources">30dip</dimen>
+    <dimen name="player_seeker_progress_height" tools:ignore="UnusedResources">2dip</dimen>
+
+    <!-- 字体  -->
+    <dimen name="textLoadingSize">14sp</dimen>
+    <dimen name="common_list_textLoadingSize">12sp</dimen>
+    <dimen name="loadingView_textSize_default">12sp</dimen>
+
+    <dimen name="kg_common_second_view_top_margin">5dip</dimen>
+
+    <dimen name="kg_primary_small_text_size">15sp</dimen>
+    <dimen name="kg_small_text_size">12sp</dimen>
+
+    <dimen name="dialog_clear_confirm_height" tools:ignore="UnusedResources">200dip</dimen>
+    <dimen name="audio_item_icon_width">45dip</dimen>
+
+    <!-- 控制色块高度 -->
+    <dimen name="net_main_view_hight" tools:ignore="UnusedResources">3dip</dimen>
+    <dimen name="net_main_divider_view_hight">1px</dimen>
+
+    <dimen name="common_list_bar_divider_marginright">7dip</dimen>
+
+    <dimen name="edit_mode_btn_height" tools:ignore="UnusedResources">60dip</dimen>
+    <dimen name="list_common_bar_header_height">45dip</dimen>
+    <dimen name="empty_tips_size">15dip</dimen>
+
+    <!-- 定时关闭 -->
+    <dimen name="dialog_setting_ring_height" tools:ignore="UnusedResources">305dp</dimen>
+    <dimen name="dialog_sleep_height" tools:ignore="UnusedResources">257dip</dimen>
+    <dimen name="dialog_sleep_list_item_height" tools:ignore="UnusedResources">59dip</dimen>
+    <dimen name="dialog_sleep_title_layout_marginLeft">24dip</dimen>
+    <dimen name="dialog_sleep_text_layout_marginLeft" tools:ignore="UnusedResources">24dip</dimen>
+    <dimen name="dialog_sleep_radio_layout_marginRight" tools:ignore="UnusedResources">36dip</dimen>
+    <dimen name="dialog_music_down_select_layout_marginLeft" tools:ignore="UnusedResources">20dip
+    </dimen>
+    <dimen name="dialog_add_local_text_layout_marginLeft" tools:ignore="UnusedResources">20dip
+    </dimen>
+    <dimen name="dialog_common_confirm_edittext_padding" tools:ignore="UnusedResources">8dip</dimen>
+
+    <!-- 排行 -->
+    <dimen name="lable_top_list_item_height" tools:ignore="UnusedResources">78dip</dimen>
+    <dimen name="lable_top_list_item_image_width" tools:ignore="UnusedResources">68dip</dimen>
+    <dimen name="lable_top_list_item_image_height" tools:ignore="UnusedResources">68dip</dimen>
+    <dimen name="lable_top_list_item_paddingleft" tools:ignore="UnusedResources">8dip</dimen>
+    <dimen name="lable_top_list_item_paddingright" tools:ignore="UnusedResources">8dip</dimen>
+    <dimen name="lable_top_list_item_paddingtop" tools:ignore="UnusedResources">10dip</dimen>
+    <dimen name="lable_top_list_item_text_marginleft" tools:ignore="UnusedResources">7dip</dimen>
+    <dimen name="lable_top_list_item_text1_size" tools:ignore="UnusedResources">20dip</dimen>
+    <dimen name="lable_top_list_item_text2_size" tools:ignore="UnusedResources">15dip</dimen>
+    <dimen name="lable_top_list_item_text3_size" tools:ignore="UnusedResources">12dip</dimen>
+    <dimen name="lable_top_list_item_text4_size" tools:ignore="UnusedResources">14dip</dimen>
+
+    <!-- 全部收藏弹出框 -->
+    <dimen name="dialog_all_favorite_title_margintop" tools:ignore="UnusedResources">5dip</dimen>
+    <dimen name="dialog_all_favorite_title_paddingleft" tools:ignore="UnusedResources">20dip</dimen>
+    <dimen name="dialog_all_favorite_no_login_paddingleft" tools:ignore="UnusedResources">30dip
+    </dimen>
+    <dimen name="dialog_all_favorite_title_paddingright" tools:ignore="UnusedResources">20dip
+    </dimen>
+    <dimen name="dialog_all_favorite_local_paddingleft" tools:ignore="UnusedResources">38dip</dimen>
+    <dimen name="dialog_delete_check_paddingleft">30dip</dimen>
+    <dimen name="dialog_delete_check_layout_marginLeft" tools:ignore="UnusedResources">10dip</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="song_list_primary_text_size">16dip</dimen>
+    <dimen name="song_list_second_text_size" tools:ignore="UnusedResources">14dip</dimen>
+    <dimen name="song_list_mid_text_size" tools:ignore="UnusedResources">12dip</dimen>
+    <dimen name="song_list_min_text_size" tools:ignore="UnusedResources">12dip</dimen>
+    <dimen name="feedback_qq_size" tools:ignore="UnusedResources">15dip</dimen>
+    <dimen name="kg_super_small_text_size">10sp</dimen>
+    <dimen name="edit_mode_infos_maginleft">5dip</dimen>
+    <dimen name="list_min_text_size">12dip</dimen>
+    <dimen name="kg_secondary_text_size">14sp</dimen>
+    <dimen name="kg_playing_bar_text_size">9dp</dimen>
+
+    <dimen name="kg_local_rec_margin_bottom">60dip</dimen>
+
+    <!-- 繁星首页 -->
+    <dimen name="fx_main_text_size_small">10dip</dimen>
+    <dimen name="fx_main_text_size_normal" tools:ignore="UnusedResources">12dip</dimen>
+    <dimen name="fx_main_text_size_big" tools:ignore="UnusedResources">19dip</dimen>
+    <dimen name="fx_main_margin_size" tools:ignore="UnusedResources">9dip</dimen>
+    <dimen name="fx_livehall_item_top_padding_size" tools:ignore="UnusedResources">8dip</dimen>
+    <dimen name="fx_pulltorefresh_indicator_right_padding">10dp</dimen>
+    <dimen name="fx_pulltorefresh_indicator_corner_radius">12dp</dimen>
+    <dimen name="fx_pulltorefresh_indicator_internal_padding">4dp</dimen>
+    <dimen name="fx_pulltorefresh_header_footer_left_right_padding">24dp</dimen>
+    <dimen name="fx_pulltorefresh_header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="fx_main_liveitem_height">95dip</dimen>
+    <dimen name="fx_liveitem_height" tools:ignore="UnusedResources">102dip</dimen>
+    <dimen name="fx_playing_bar_height">60dip</dimen>
+    <dimen name="fx_main_mv_layout_margin_top_bottom">15dip</dimen>
+    <dimen name="fx_main_mv_layout_height">88dip</dimen>
+    <dimen name="fx_main_mv_layout_margin_offset">6dip</dimen>
+    <!-- 繁星common -->
+    <dimen name="text1Size" tools:ignore="UnusedResources">21sp</dimen>
+    <dimen name="text2Size" tools:ignore="UnusedResources">19sp</dimen>
+    <dimen name="text3Size" tools:ignore="UnusedResources">18sp</dimen>
+    <dimen name="text4Size" tools:ignore="UnusedResources">17sp</dimen>
+    <dimen name="text5Size">16sp</dimen>
+    <dimen name="text6Size">15sp</dimen>
+    <dimen name="text7Size" tools:ignore="UnusedResources">14sp</dimen>
+    <dimen name="text8Size" tools:ignore="UnusedResources">13sp</dimen>
+    <dimen name="text9Size" tools:ignore="UnusedResources">12sp</dimen>
+    <dimen name="text10Size">11sp</dimen>
+    <dimen name="text11Size" tools:ignore="UnusedResources">10sp</dimen>
+    <dimen name="textminSize" tools:ignore="UnusedResources">9sp</dimen>
+
+    <!--酷狗live-->
+    <dimen name="fx_common_refresh_textsize_big">16sp</dimen>
+    <dimen name="fx_common_refresh_textsize">14sp</dimen>
+
+    <!-- KTV -->
+    <!-- 首页上部分Icon的宽度 -->
+    <dimen name="ktv_navigation_top_icon_width">60sp</dimen>
+    <dimen name="ktv_textsize_9">9sp</dimen>
+    <dimen name="ktv_textsize_10" tools:ignore="UnusedResources">10sp</dimen>
+    <dimen name="ktv_textsize_11">11sp</dimen>
+    <dimen name="ktv_textsize_12">12sp</dimen>
+    <dimen name="ktv_textsize_13">13sp</dimen>
+    <dimen name="ktv_textsize_14">14sp</dimen>
+    <dimen name="ktv_textsize_15" tools:ignore="UnusedResources">15sp</dimen>
+    <dimen name="ktv_textsize_16">16sp</dimen>
+    <dimen name="ktv_textsize_17" tools:ignore="UnusedResources">17sp</dimen>
+    <dimen name="ktv_textsize_18">18sp</dimen>
+    <dimen name="ktv_textsize_20" tools:ignore="UnusedResources">20sp</dimen>
+    <dimen name="ktv_textsize_21" tools:ignore="UnusedResources">21sp</dimen>
+    <dimen name="ktv_textsize_22">22sp</dimen>
+    <dimen name="ktv_textsize_25" tools:ignore="UnusedResources">25sp</dimen>
+    <dimen name="ktv_textsize_23" tools:ignore="UnusedResources">23sp</dimen>
+    <dimen name="ktv_textsize_24" tools:ignore="UnusedResources">24sp</dimen>
+    <dimen name="ktv_textsize_30" tools:ignore="UnusedResources">30sp</dimen>
+
+    <!-- navigatioin -->
+    <dimen name="ktv_user_head_image_size" tools:ignore="UnusedResources">110dip</dimen>
+    <dimen name="ktv_navigation_header_height">85dip</dimen>
+    <dimen name="ktv_navigation_menu_margin">5dip</dimen>
+    <dimen name="ktv_navigation_menu_item_height_space">5dip</dimen>
+    <dimen name="ktv_navigation_menu_item_margin">1dip</dimen>
+    <dimen name="ktv_navigation_menu_bottom_layout_heigth">70dip</dimen>
+
+    <dimen name="menu_dialog_line_height">5dip</dimen>
+
+    <!--主页导航-->
+    <dimen name="navigation_header_outer_padding">10dip</dimen>
+    <dimen name="navigation_search_height">45dip</dimen>
+
+    <!--电台-->
+    <dimen name="radio_search_list_item_height">50dip</dimen>
+    <!---通用-->
+    <dimen name="kg_common_swip_tab_height">45dp</dimen>
+    <dimen name="kg_local_audios_downloading_status_bar_height">35dp</dimen>
+
+    <dimen name="kg_skin_center_tab_height">45dp</dimen>
+    <dimen name="kg_common_swip_kan_tab_height">51dp</dimen>
+    <dimen name="kg_common_x_rec_swipe_tab_height">40dp</dimen>
+    <dimen name="kg_common_x_flexible_popup_swipe_tab_height">40dp</dimen>
+    <dimen name="kg_common_x_flexible_popup_swipe_tab_height_lbook">45dp</dimen>
+    <dimen name="kg_common_x_flexible_popup_swipe_tab_title_height">27dp</dimen>
+    <dimen name="kg_common_x_flexible_popup_swipe_tab_start_margin">10dp</dimen>
+    <dimen name="kg_common_x_flexible_popup_swipe_tab_end_margin">0dp</dimen>
+    <dimen name="kg_common_x_flexible_popup_swipe_tab_item_default_interval">10dp</dimen>
+
+    <dimen name="kg_common_swip_toggle_tab_height">30dp</dimen>
+
+    <dimen name="kg_common_swip_tab_bottom_line_height">0.5dp</dimen>
+
+    <dimen name="kg_common_swip_tab_indicator_height">2dp</dimen>
+
+    <!--铃声-->
+    <dimen name="ringtone_make_bottom_top_margin">25dp</dimen>
+
+    <!--v8 账号-->
+    <!-- 编辑框光标右移 -->
+    <dimen name="v8_edittextpaddingLeft">30dip</dimen>
+
+    <!--文字-->
+    <dimen name="v8_textLargeSize">18sp</dimen>
+    <dimen name="v8_textMediunSize">16sp</dimen>
+    <dimen name="v8_textEXMediunSize">15sp</dimen>
+    <dimen name="v8_pullBtnTextSize">14sp</dimen>
+    <dimen name="v8_textMinSize">13sp</dimen>
+    <dimen name="v8_textExMinSize">12sp</dimen>
+
+    <dimen name="v8_editTextHeight">50dp</dimen>
+    <dimen name="v8_normal_margin">18dp</dimen>
+    <dimen name="v8_normal_margin_13">13dp</dimen>
+
+    <!-- pull to refresh -->
+    <dimen name="kg_pulltorefresh_indicator_right_padding">10dp</dimen>
+    <dimen name="kg_pulltorefresh_indicator_corner_radius">12dp</dimen>
+    <dimen name="kg_pulltorefresh_indicator_internal_padding">4dp</dimen>
+    <dimen name="kg_pulltorefresh_header_footer_left_right_padding">24dp</dimen>
+    <dimen name="kg_pulltorefresh_header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="kg_transfer_qr_code_width">250dip</dimen>
+
+    <!--消息中心 -->
+    <dimen name="comm_msg_red_tip_size">12dp</dimen>
+    <dimen name="comm_msg_red_tip_small_size">8dp</dimen>
+    <dimen name="comm_msg_red_tip_big_size">17dp</dimen>
+    <dimen name="comm_msg_icon_size">60dp</dimen>
+    <dimen name="comm_system_msg_pic_padding">78dp</dimen>
+    <dimen name="kg_blacklist_line_padding_left">80dp</dimen>
+    <dimen name="kg_blacklist_line_padding_left_check">105dp</dimen>
+
+    <dimen name="v8_gradient_radius">5dp</dimen>
+    <dimen name="v8_skin_line">0.5dp</dimen>
+
+    <!-- from values-1920x1080 -->
+
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <item name="item_touch_helper_previous_elevation" type="id" />
+
+    <declare-styleable name="coverImg">
+        <attr name="cover_color" format="color" />
+    </declare-styleable>
+
+    <!-- 桌面歌词 -->
+    <dimen name="kg_desklyric_color_control_padding">7dp</dimen>
+    <dimen name="kg_desklyric_color_control_margin">12dp</dimen>
+    <dimen name="kg_desklyric_color_control_height">56dp</dimen>
+    <dimen name="minilyric_control_height">50dip</dimen>
+
+    <dimen name="avatar_size">224px</dimen>
+
+    <!-- 注意minilyric_control_height_default_value和minilyric_control_height要对应 -->
+    <integer-array name="minilyric_control_height_default_value">
+        <item>70</item>
+    </integer-array>
+
+
+    <!-- 看首页 我关注的 弹框-->
+    <dimen name="fx_main_myfollow_pop_kan_height">325dp</dimen>
+    <dimen name="fx_main_myfollow_pop_kan_width">275dp</dimen>
+
+    <dimen name="fx_main_myfollow_pop_ting_height">247dp</dimen>
+    <dimen name="fx_main_myfollow_pop_ting_width">210dp</dimen>
+
+    <dimen name="fx_main_myfollow_pop_margin_right">6dip</dimen>
+    <dimen name="fx_main_myfollow_pop_item_avatar_size">40dip</dimen>
+    <dimen name="fx_main_myfollow_pop_item_height">60dip</dimen>
+    <dimen name="fx_main_myfollow_pop_item_offset">15dip</dimen>
+    <dimen name="fx_main_myfollow_pop_item_image_text_space">10dip</dimen>
+    <dimen name="fx_main_myfollow_pop_item_tag_margin">5dip</dimen>
+    <dimen name="fx_main_myfollow_pop_item_tag_padding">7.5dip</dimen>
+    <dimen name="common_follow_num_margin_left">8dip</dimen>
+    <dimen name="common_follow_num_margin_top">8dip</dimen>
+    <dimen name="common_follow_num_height">14dip</dimen>
+    <dimen name="common_follow_num_text_size">8dip</dimen>
+    <dimen name="fx_ts1_22">11sp</dimen>
+    <dimen name="fx_ts1_24">12sp</dimen>
+    <dimen name="fx_ts1_26">13sp</dimen>
+    <dimen name="fx_ts1_28">14sp</dimen>
+    <dimen name="fx_ts1_30">15sp</dimen>
+    <dimen name="fx_ts1_32">16sp</dimen>
+    <dimen name="fx_ts1_34">17sp</dimen>
+    <dimen name="fx_ts1_36">18sp</dimen>
+
+    <!-- px值,可以直接转px使用 -->
+    <dimen name="fx_c_1px">0.5dp</dimen>
+    <dimen name="fx_c_7px">3.5dp</dimen>
+    <dimen name="fx_c_13px">6.5dp</dimen>
+    <dimen name="fx_c_14px">7dp</dimen>
+    <dimen name="fx_c_16px">8dp</dimen>
+    <dimen name="fx_c_18px">9dp</dimen>
+    <dimen name="fx_c_20px">10dp</dimen>
+    <dimen name="fx_c_24px">12dp</dimen>
+    <dimen name="fx_c_26px">13dp</dimen>
+    <dimen name="fx_c_30px">15dp</dimen>
+    <dimen name="fx_c_35px">17.5dp</dimen>
+    <dimen name="fx_c_10px">5dp</dimen>
+    <dimen name="fx_c_4px">2dp</dimen>
+    <dimen name="fx_c_2px">1dp</dimen>
+    <dimen name="fx_c_6px">3dp</dimen>
+    <dimen name="fx_c_204px">102dp</dimen>
+    <dimen name="fx_c_192px">96dp</dimen>
+    <dimen name="fx_c_184px">92dp</dimen>
+    <dimen name="fx_c_100px">50dp</dimen>
+    <dimen name="fx_c_36px">18dp</dimen>
+    <dimen name="fx_c_32px">16dp</dimen>
+    <dimen name="fx_c_34px">17dp</dimen>
+    <dimen name="fx_c_160px">80dp</dimen>
+    <dimen name="fx_c_166px">83dp</dimen>
+    <dimen name="fx_c_130px">65dp</dimen>
+    <dimen name="fx_c_60px">30dp</dimen>
+    <dimen name="fx_c_50px">25dp</dimen>
+    <dimen name="fx_c_25px">12.5dp</dimen>
+    <dimen name="fx_c_70px">35dp</dimen>
+    <dimen name="fx_c_80px">40dp</dimen>
+    <dimen name="fx_c_88px">44dp</dimen>
+    <dimen name="fx_c_44px">22dp</dimen>
+    <dimen name="fx_c_22px">11dp</dimen>
+    <dimen name="fx_c_8px">4dp</dimen>
+    <dimen name="fx_c_12px">6dp</dimen>
+    <dimen name="fx_c_40px">20dp</dimen>
+    <!--看首页统一圆角-->
+    <dimen name="kan_main_common_round_conner">10dp</dimen>
+
+    <dimen name="fx_text5Size">16sp</dimen>
+    <dimen name="fx_text3Size">18sp</dimen>
+    <dimen name="fx_text6Size">15sp</dimen>
+    <dimen name="fx_text2Size">19sp</dimen>
+    <dimen name="fx_textMediumSize">14dip</dimen>
+    <dimen name="fx_textLargeSize">18dip</dimen>
+    <dimen name="fx_dialog_bottom_bar_height">50dip</dimen>
+    <dimen name="fx_user_login_edittext_paddingLeft">55dip</dimen>
+
+    <dimen name="kg_user_head_width">74dip</dimen>
+    <dimen name="kg_user_head_height">62.5dip</dimen>
+
+    <dimen name="kg_navigation_local_entry_line_left_margin">61dp</dimen>
+    <dimen name="kg_navigation_local_entry_line_right_margin">13dp</dimen>
+    <dimen name="kg_navigation_user_level_stroke_width">1dp</dimen>
+    <dimen name="kg_navigation_user_entry_height">85dp</dimen>
+    <dimen name="kg_navigation_local_entry_padding_top">0dp</dimen>
+    <dimen name="kg_navigation_local_entry_padding_bottom">12dp</dimen>
+    <dimen name="kg_navigation_top6_entry_height">74dp</dimen>
+    <dimen name="kg_navigation_top6_entry_margin_top">15dp</dimen>
+    <dimen name="kg_navigation_top6_entry_margin_bottom">15dp</dimen>
+    <dimen name="kg_navigation_top_entries_background_height">169dp</dimen>
+    <dimen name="kg_playing_bar_album_background_size">60dip</dimen>
+    <dimen name="kg_playing_bar_album_background_size_with_shadow">75dip</dimen>
+    <dimen name="kg_navigation_item_height">52dp</dimen>
+    <dimen name="kg_navigation_item_height_new">52.5dp</dimen>
+    <dimen name="ktv_mini_bar_progress_width">2.5dp</dimen>
+    <dimen name="common_swipe_tab_view_height">50dp</dimen>
+
+    <dimen name="kg_playing_bar_blue_ad_height">34dp</dimen>
+    <dimen name="kg_playing_bar_online_horn_max_height">112dp</dimen>
+
+    <dimen name="kg_overdue_dialog_radius">8dp</dimen>
+
+    <!--音乐圈 mainHeader 高度，为了加速页面动画添加-->
+    <dimen name="kg_music_zone_main_header">131dp</dimen>
+    <dimen name="kg_music_zone_detail_item_height">50dp</dimen>
+    <!--ktv首页改版-->
+    <dimen name="ktv_dynamic_comment_bottom">0dp</dimen>
+    <dimen name="ktv_vip_icon_left_margin">5dp</dimen>
+
+    <dimen name="pwd_bg_size">1dip</dimen>
+    <dimen name="pwd_radius">6.5dip</dimen>
+
+    <dimen name="ktv_common_page_horizontal_margins_left">15dip</dimen>
+    <dimen name="ktv_common_page_horizontal_margins">15dip</dimen>
+    <dimen name="ktv_new_common_page_horizontal_margins">10dip</dimen>
+    <dimen name="ktv_common_page_content_horizontal_margins">55dip</dimen>
+    <dimen name="ktv_common_button_radius">15dip</dimen>
+    <dimen name="kg_import_playlist_bg">190dp</dimen>
+
+    <!-- 9.0新ui样式 外边距 -->
+    <dimen name="kg_new_ui_out_margin">10dp</dimen>
+    <dimen name="kg_new_video_ui_out_margin">15dp</dimen>
+    <!-- 内边距 -->
+    <dimen name="kg_new_ui_in_margin">4dp</dimen>
+    <!-- 内边距-一半 -->
+    <dimen name="kg_new_ui_in_half_margin">2dp</dimen>
+
+
+
+    <dimen name="kg_new_x_ui_out_margin">15dp</dimen>
+    <dimen name="kg_new_x_ui_in_margin">9dp</dimen>
+    <dimen name="kg_new_x_ui_round_corner">6dp</dimen>
+    <dimen name="kg_x_local_icon_margin">5dp</dimen>
+    <dimen name="kg_navigation_mine_list_title_btn_padding">10dp</dimen>
+    <dimen name="kg_navigation_local_entry_user_follow_info_paddingLeft">22dp</dimen>
+    <dimen name="kg_navigation_local_entry_user_follow_info_paddingRight">22dp</dimen>
+    <dimen name="kg_navigation_local_entry_user_follow_info_paddingTop">18dp</dimen>
+    <dimen name="kg_navigation_local_entry_user_follow_info_paddingBottom">20dp</dimen>
+    <dimen name="kg_rec_bottom_tag_space_view_height">46dp</dimen>
+
+    <!-- kugou9.0 大圆角按钮 -->
+    <dimen name="common_corner_radius_9_0">50dip</dimen>
+    <dimen name="common_button_stroke_width">1dip</dimen>
+    <dimen name="common_button_stroke_width_thin">0.5dip</dimen>
+    <dimen name="common_button_text_size_large">15sp</dimen>
+    <dimen name="common_button_text_size_middle">14sp</dimen>
+    <dimen name="common_button_text_size_small">12sp</dimen>
+    <dimen name="common_button_text_size_mini">11sp</dimen>
+    <dimen name="common_button_text_size_x_middle">14sp</dimen>
+    <dimen name="common_button_height_large">36dp</dimen>
+    <dimen name="common_button_height_middle">34dp</dimen>
+    <dimen name="common_button_height_small">26dp</dimen>
+    <dimen name="common_button_height_mini">22dp</dimen>
+    <dimen name="common_button_width_x_middle">150dip</dimen>
+
+    <!--Ting主导航-->
+    <dimen name="kg_navigation_main_icon_width">45dip</dimen>
+    <dimen name="kg_navigation_main_icon_height">45dip</dimen>
+    <dimen name="kg_navigation_main_local_icon_size">13.5dip</dimen>
+    <dimen name="kg_navigation_entr_icon_width">22dip</dimen>
+    <dimen name="kg_navigation_entr_icon_width1">19.5dip</dimen>
+    <dimen name="kg_navigation_entr_icon_height">22dip</dimen>
+    <dimen name="kg_navigation_search_bar_container_margin">4.5dip</dimen>
+    <dimen name="kg_navigation_search_bar_layout_height">26.7dip</dimen>
+    <dimen name="kg_navigation_search_bar_layout_width">249dip</dimen>
+    <dimen name="kg_navigation_search_bar_drawable_padding">6dip</dimen>
+    <dimen name="kg_navigation_search_layout_height">45dip</dimen>
+    <dimen name="kg_navigation_local_music_height">49dip</dimen>
+    <dimen name="kg_navigation_local_music_height1">45dip</dimen>
+    <dimen name="kg_navigation_local_entry_height">80dip</dimen>
+    <dimen name="kg_navigation_local_entry_height1">67dip</dimen>
+    <dimen name="kg_navigation_local_entry_txt_margin">2dip</dimen>
+    <dimen name="kg_navigation_local_music_layout_margin">4.5dip</dimen>
+    <dimen name="kg_navigation_local_music_txt_margin">3dip</dimen>
+    <dimen name="kg_navigation_entry_margin_left">11.5dip</dimen>
+    <dimen name="kg_navigation_identify_guide_margin_right">27.5dip</dimen>
+    <dimen name="kg_navigation_entry_margin_right">16dip</dimen>
+    <dimen name="kg_navigation_line_margin_left">16dip</dimen>
+    <dimen name="kg_navigation_net_entry_item_height">42.5dip</dimen>
+    <dimen name="kg_navigation_net_entry_item_height1">33.8dip</dimen>
+    <dimen name="kg_navigation_net_entry_spread_item_height">58dp</dimen>
+    <dimen name="kg_navigation_net_entry_txt_margin">7dip</dimen>
+    <dimen name="kg_navigation_tips_leg_max">138dip</dimen>
+    <dimen name="kg_navigation_dot_width">7dip</dimen>
+    <dimen name="kg_navigation_dot_height">7dip</dimen>
+    <dimen name="kg_navigation_dot_padding">3.5dip</dimen>
+    <dimen name="kg_navigation_net_entry_game_tips_img_width">26.7dip</dimen>
+    <dimen name="kg_navigation_net_entry_game_tips_img_height">26.7dip</dimen>
+    <dimen name="kg_navigation_download_bubble_margin">0dip</dimen>
+    <dimen name="kg_navigation_tips_margin_right">4dip</dimen>
+    <dimen name="kg_navigation_dot_margin_right">9dip</dimen>
+    <dimen name="kg_navigation_net_entry_margin_left">23dip</dimen>
+    <dimen name="kg_navigation_net_entry_icon_margin_fx">7dip</dimen>
+    <dimen name="kg_navigation_net_entry_icon_margin">9dip</dimen>
+    <dimen name="kg_navigation_net_entry_icon_margin1">6dip</dimen>
+    <dimen name="kg_navigation_net_entry_k_icon_margin">5.5dip</dimen>
+    <dimen name="kg_navigation_net_entry_item_margin">18dip</dimen>
+    <dimen name="kg_navigation_user_entry_icon_margin_left">17.7dip</dimen>
+    <dimen name="kg_navigation_local_entry_margin">5.3dip</dimen>
+    <dimen name="kg_navigation_local_icon_margin">21.3dip</dimen>
+    <dimen name="kg_navigation_net_entry_height">106.7dip</dimen>
+    <dimen name="kg_navigation_net_entry_height1">96dip</dimen>
+    <dimen name="kg_navigation_local_music_tv_margin">14dip</dimen>
+    <dimen name="kg_navigation_local_height">140.3dip</dimen>
+    <dimen name="kg_navigation_local_height1">130dip</dimen>
+    <dimen name="kg_navigation_local_entry_padding">7dip</dimen>
+    <dimen name="kg_navigation_local_entry_padding1">2.5dip</dimen>
+    <dimen name="kg_navigation_net_entry_padding">4.5dip</dimen>
+    <dimen name="kg_navigation_net_entry_line_margin_left">31dip</dimen>
+    <dimen name="kg_fanxing_navigation_net_entry_line_margin_left">49dip</dimen>
+    <dimen name="kg_playing_bar_height">67.5dip</dimen>
+    <dimen name="kg_navigation_divide_height">0.5dip</dimen>
+    <dimen name="kg_x_rec_play_list_space_margin">5dp</dimen>
+    <dimen name="kg_navigation_user_name_margin_right">92dp</dimen>
+    <dimen name="kg_navigation_user_name_vip_margin_left">-92dp</dimen>
+
+    <!-- v8弹出框 -->
+    <dimen name="dialog8_margin_horizontal">22dp</dimen>
+    <dimen name="dialog8_margin_top">23.5dp</dimen>
+    <dimen name="dialog8_title_padding_bottom">7dp</dimen>
+    <dimen name="dialog8_padding_bodycontainer_horizontal">18dp</dimen>
+    <dimen name="dialog8_padding_bodycontainer_bottom">23.5dp</dimen>
+    <dimen name="dialog8_divider_height_thin">0.45dp</dimen>
+    <dimen name="dialog8_divider_width_thin">0.45dp</dimen>
+    <dimen name="dialog8_bottom_area_height">43dp</dimen>
+    <dimen name="dialog8_background_radius">9dp</dimen>
+    <dimen name="dialog8_body_message_linespac">4dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="dialog8_title_text_size">14sp</dimen>
+    <dimen name="dialog8_bottom_area_text_size">14sp</dimen>
+    <dimen name="dialog8_body_message">12.5sp</dimen>
+    <dimen name="kg_super_large_text_size">36sp</dimen>
+    <dimen name="kg_large_text_size">15sp</dimen>
+    <dimen name="kg_tertiary_text_size">11sp</dimen>
+    <dimen name="kg_navigation_net_icon_margin_fx">14.5dip</dimen>
+    <dimen name="v8_navigation_primary_size">14sp</dimen>
+    <dimen name="kg_login_copyright_text_size">9sp</dimen>
+    <!-- 底部滑出dialog -->
+    <dimen name="dialog8_row_height">43dp</dimen>
+    <dimen name="dialog8_song_info_row_height">39dp</dimen>
+    <dimen name="dialog8_divider_height_thick">4.5dp</dimen>
+
+    <dimen name="special_playlist_creator">13sp</dimen>
+    <dimen name="special_playlist_create_time">12sp</dimen>
+    <dimen name="comm_main_top_head_layout_size">45dip</dimen>
+    <dimen name="comm_main_top_margin_left">17.8dip</dimen>
+    <dimen name="comm_main_top_margin_right">17.8dip</dimen>
+    <dimen name="comm_main_top_icon_size">33.8dip</dimen>
+    <dimen name="comm_main_item_margin">15dip</dimen>
+    <!--全局title高度统一为45dip，原40dip-->
+    <dimen name="v8_comm_main_top_height">45dip</dimen>
+
+    <!--refresh icon-->
+    <dimen name="v8_refresh_layout_size">100dip</dimen>
+    <dimen name="v8_refresh_layout_btn_width">100dip</dimen>
+    <dimen name="v8_refresh_layout_btn_height">23dip</dimen>
+    <dimen name="v8_refresh_layout_btn_margin_top">4dip</dimen>
+    <dimen name="v8_singer_refresh_layout_size">80dip</dimen>
+
+    <!-- 登录页 -->
+    <dimen name="kg_first_login_logo_margin_top">100dp</dimen>
+    <dimen name="kg_first_login_third_margin_bottom">9dp</dimen>
+    <dimen name="kg_first_login_third_text_margin_bottom">22dp</dimen>
+    <dimen name="kg_login_head_height">90dp</dimen>
+    <dimen name="kg_login_edit_height">40dp</dimen>
+    <dimen name="kg_login_register_margin_top">10dp</dimen>
+
+    <dimen name="tools_item_height">52dp</dimen>
+    <dimen name="tools_item_height1">47dp</dimen>
+    <dimen name="ktv_dialog_checkbox_left_padding">18dp</dimen>
+
+    <!-- 排行榜 -->
+    <dimen name="kg_rank_item_height">58dp</dimen>
+
+    <dimen name="aduio_restart_btn_margin_top">30dp</dimen>
+
+    <!-- from values-hdpi -->
+
+    <!-- mini歌词默认大小 -->
+    <integer-array name="minilyr_text_size_default_value">
+        <item>38</item>
+        <item>28</item>
+        <item>48</item>
+    </integer-array>
+    <dimen name="fx_playing_bar_min_height">48.9dip</dimen>
+
+    <dimen name="kg_refresh_layout_icon_size">150dp</dimen>
+    <dimen name="kg_playing_bar_thumb_default_padding">3.6dip</dimen>
+
+    <dimen name="common_item_checkbox_margin_right">1dp</dimen>
+    <dimen name="ktv_waveview_round_rect_rxy">1.5dp</dimen>
+
+    <dimen name="ktv_ad_dialog_parent_width">296dp</dimen>
+    <dimen name="ktv_ad_dialog_img_width">276dp</dimen>
+    <dimen name="ktv_ad_dialog_img_height">128dp</dimen>
+    <dimen name="ktv_more_classify_height">200dp</dimen>
+
+    <dimen name="kg_dynamic_share_weixin_size">36dp</dimen>
+
+    <dimen name="v8_red_dot_number_size">7dp</dimen>
+
+    <dimen name="third_login_height">28dp</dimen>
+
+    <dimen name="v8_mv_main_refresh_layout_size">170dip</dimen>
+    <dimen name="v8_mv_main_refresh_layout_btn_width">185dip</dimen>
+    <dimen name="v8_mv_main_refresh_layout_btn_height">40dip</dimen>
+    <dimen name="v8_mv_main_refresh_layout_margin_top">-40dip</dimen>
+
+    <dimen name="kg_x_swip_tab_height">60dp</dimen>
+
+    <dimen name="fx_video_circle_head_bg_height">175dp</dimen>
+    <dimen name="fx_video_circle_head_height">240dp</dimen>
+
+    <dimen name="fx_download_layer_margin_bottom_in_kan">70dp</dimen>
+    <dimen name="fx_download_layer_margin_bottom_from_out">20dp</dimen>
+    <dimen name="fx_begin_live_download_margin_bottom_in_kan">85dp</dimen>
+    <dimen name="fx_begin_live_download_margin_bottom_from_out">80dp</dimen>
+
+    <dimen name="desk_widget_common_padding">15dip</dimen>
+
+    <dimen name="desk_widget_width">270dp</dimen>
+
+    <dimen name="desk_widget_height">300.5dp</dimen>
+
+    <dimen name="desk_widget_title_height">60dp</dimen>
+
+    <dimen name="desk_widget_content_height">240dp</dimen>
+
+    <dimen name="kg_tag_detail_head_img_height">220dp</dimen>
+    <dimen name="vip_red_pack_layout_top_margin">276dp</dimen>
+
+
+    <dimen name="float_task_in_size">36dp</dimen>
+    <dimen name="float_task_in_radius">21dp</dimen>
+    <dimen name="float_task_in_edge_size">36dp</dimen>
+    <dimen name="float_task_in_edge_radius">20dp</dimen>
+    <dimen name="float_task_out_radius">26dp</dimen>
+    <dimen name="float_task_out_bottom_margin">14dp</dimen>
+    <dimen name="float_task_out_item_icon_height">36dp</dimen>
+    <dimen name="float_task_out_item_icon_edge_height">36dp</dimen>
+    <dimen name="float_task_out_width">52dp</dimen>
+    <dimen name="float_task_out_item_height">63dp</dimen>
+    <dimen name="float_task_out_item_width">200dp</dimen>
+    <dimen name="float_task_out_container_width">58dp</dimen>
+    <dimen name="float_task_out_container_height">72dp</dimen>
+    <dimen name="float_task_left_padding">5dp</dimen>
+    <dimen name="float_task_right_padding">6dp</dimen>
+    <dimen name="float_task_out_float_container_width">57dp</dimen>
+    <dimen name="float_task_out_float_container_height">57dp</dimen>
+    <dimen name="float_task_icon_margin">9dp</dimen>
+
+    <!--酷狗X版本-->
+    <dimen name="kg_x_main_discovery_tab_icon_size">17dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_search_icon_margin_right">8.5dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_margin_right">160dp</dimen>
+    <dimen name="kg_x_main_mine_tab_margin_right">99dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_menu_icon_margin_right">15dp</dimen>
+    <dimen name="kg_x_main_discovery_top_tab_margin_left">9dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_view_expand_padding_left">36dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_view_expand_padding_right">28dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_view_shrink_padding_left">12dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_top_margin_top">16dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_container_padding_top">5dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_container_padding_bottom">11dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_icon_margin_bottom">15dp</dimen>
+    <dimen name="kg_x5_main_discovery_tab_icon_margin_bottom">13dp</dimen>
+    <dimen name="kg_x5_main_discovery_swipe_tab_margin_bottom">11dp</dimen>
+    <dimen name="kg_x5_main_other_tab_search_bar_margin_bottom">9dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_large_height">97dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_height">54dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_item_height">50dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_padding_top">16dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_search_bar_height">25dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_search_bar_margin_left">18dp</dimen>
+    <dimen name="kg_x_main_discovery_tab_menu_width">50dp</dimen>
+    <dimen name="kg_x_play_bar_btn_size">20dp</dimen>
+    <dimen name="kg_x_play_bar_btn_padding">10dp</dimen>
+    <dimen name="kg_x_play_bar_seeker_height">16dp</dimen>
+    <dimen name="kg_x_play_bar_primary_text_size">13dp</dimen>
+    <dimen name="kg_x_play_bar_second_text_size">11dp</dimen>
+    <dimen name="kg_x_main_banner_corner_radius">6dp</dimen>
+    <dimen name="kg_x_main_banner_margin_left">7.5dp</dimen>
+    <dimen name="kg_x_main_banner_free_mode_icon">19dp</dimen>
+    <dimen name="kg_x_main_search_view_height">37dp</dimen>
+
+    <dimen name="kg_x_rec_newsong_item_height">50dp</dimen>
+    <dimen name="kg_x_rec_newsong_item_margin_left">15dp</dimen>
+    <dimen name="kg_x_rec_newsong_item_margin_top">20dp</dimen>
+    <dimen name="kg_x_rec_newsong_item_margin_bottom">9dp</dimen>
+    <dimen name="kg_x_rec_newsong_item_icon_size">16dp</dimen>
+    <dimen name="kg_x_rec_newsong_item_icon_count_margin_left">-4dp</dimen>
+    <dimen name="kg_x_rec_swipe_tab_container_width">62dp</dimen>
+    <dimen name="kg_x_rec_swipe_tab_textview_width">53dp</dimen>
+    <dimen name="kg_x_rec_swipe_tab_textview_height">27dp</dimen>
+    <dimen name="kg_x_rec_swipe_tab_container_height">60dp</dimen>
+    <dimen name="kg_x_rec_swipe_tab_margin_top">25dp</dimen>
+    <dimen name="kg_x_rec_playlist_iv_size">96.5dp</dimen>
+    <dimen name="kg_11_rec_playlist_iv_size">96.5dp</dimen>
+    <dimen name="kg_11_rec_playlist_iv_height">125dp</dimen>
+    <dimen name="kg_x_rec_newsong_item_icon_layout_width">45dp</dimen>
+    <dimen name="kg_x_rec_sim_rec_cover_size">70dp</dimen>
+    <dimen name="kg_x_rec_live_iv_size">119dp</dimen>
+    <dimen name="kg_x_rec_live_bottom_layout_height">45dp</dimen>
+    <dimen name="kg_x_rec_item_space_height">35dp</dimen>
+    <dimen name="kg_x_rec_playlist_iv_size1">94dp</dimen>
+    <dimen name="kg_x_mine_follow_artist_detail_height">71dp</dimen>
+    <dimen name="kg_x_mine_discovery_item_height">70dp</dimen>
+    <dimen name="kg_x_mine_discovery_item_normal_width">140dp</dimen>
+    <dimen name="kg_x_rec_playlist_margin_top">10dp</dimen>
+
+    <dimen name="kg_x_rec_skeleton_txt_height">13dip</dimen>
+
+    <dimen name="kg_x_ting_main_top_guide_margin_top">0dp</dimen>
+    <dimen name="kg_x_ting_main_top_guide_hollow_height">95dp</dimen>
+    <dimen name="kg_x_play_list_shadow_width">14dp</dimen>
+
+    <dimen name="kg_x_main_menu_panel_btn_size">45dp</dimen>
+    <dimen name="kg_x_main_menu_panel_btn_bg_padding">8dp</dimen>
+    <dimen name="kg_x_main_menu_panel_btn_bg_corner">22.5dp</dimen>
+    <dimen name="kg_x_main_menu_panel_btn_shadow_size">52dp</dimen>
+    <dimen name="kg_x_playbar_ring_shadow_margin_bottom">20dp</dimen>
+    <dimen name="kg_x_main_menu_panel_btn_shadow_margin_top">2dp</dimen>
+
+    <dimen name="kg_select_skin_tab_corner_radius">10dip</dimen>
+
+    <dimen name="kg_x_mine_secondary_tab_guide_text_margin">12dp</dimen>
+
+    <dimen name="fee_song_top_bar_height">46dp</dimen>
+    <dimen name="local_music_filter_tag_margin">5dp</dimen>
+
+    <dimen name="tab_listen_panel_default_height">42dp</dimen>
+    <dimen name="play_bar_listen_panel_default_height">42dp</dimen>
+    <dimen name="play_bar_listen_panel_default_height_for_ui">60dp</dimen>
+    <dimen name="tab_listen_panel_other_height">42dp</dimen>
+
+    <dimen name="common_empty_img_text">13dp</dimen>
+    <dimen name="common_empty_text_lines">11dp</dimen>
+    <dimen name="common_empty_text_btn">28dp</dimen>
+    <dimen name="common_empty_text_size">14dp</dimen>
+
+    <dimen name="kg_discovery_special_header_more_btn_margin">5dp</dimen>
+
+    <dimen name="kg_special_header_height_without_title">201dp</dimen>
+    <dimen name="kg_special_user_info_bar_height">50dp</dimen>
+    <dimen name="kg_special_header_content_margin_top_without_title">30dp</dimen>
+    <dimen name="kg_special_header_other_special_list_height">166dp</dimen>
+    <dimen name="kg_special_detail_list_header_height">50dp</dimen>
+
+    <dimen name="kg_special_comment_author_label_width">18dp</dimen>
+    <dimen name="kg_special_comment_author_label_height">10dp</dimen>
+    <dimen name="kg_special_comment_author_label_margin_right">5dp</dimen>
+    <dimen name="kg_special_comment_author_label_shape_corner">2dp</dimen>
+    <dimen name="kg_special_comment_author_label_text_size">7dp</dimen>
+    <dimen name="kg_special_comment_author_label_shape_stroke_width">0.5dp</dimen>
+
+    <dimen name="kg_list_bottom_rec_empty_view_height">153dp</dimen>
+
+
+    <dimen name="kg_cc_list_item_height">248dip</dimen>
+    <dimen name="kg_cc_list_item_large_image_height">200dip</dimen>
+    <dimen name="kg_cc_list_item_thumb_image_height">40dip</dimen>
+    <dimen name="kg_yyt_margin">3dip</dimen>
+
+    <dimen name="common_kuqun_follow_pop_window_default_height">180dp</dimen>
+
+    <dimen name="kg_common_1dp">1dp</dimen>
+    <dimen name="kg_common_2dp">2dp</dimen>
+    <dimen name="kg_common_3dp">3dp</dimen>
+    <dimen name="kg_common_4dp">4dp</dimen>
+    <dimen name="kg_common_5dp">5dp</dimen>
+    <dimen name="kg_common_6dp">6dp</dimen>
+    <dimen name="kg_common_7dp">7dp</dimen>
+    <dimen name="kg_common_8dp">8dp</dimen>
+    <dimen name="kg_common_9dp">9dp</dimen>
+    <dimen name="kg_common_10dp">10dp</dimen>
+    <dimen name="kg_common_12dp">12dp</dimen>
+    <dimen name="kg_common_13dp">13dp</dimen>
+    <dimen name="kg_common_14dp">14dp</dimen>
+    <dimen name="kg_common_15dp">15dp</dimen>
+    <dimen name="kg_common_18dp">18dp</dimen>
+    <dimen name="kg_common_25dp">25dp</dimen>
+    <dimen name="kg_common_26dp">26dp</dimen>
+    <dimen name="kg_common_30dp">30dp</dimen>
+    <dimen name="kg_common_32dp">32dp</dimen>
+    <dimen name="kg_common_36dp">36dp</dimen>
+    <dimen name="kg_common_44dp">44dp</dimen>
+    <dimen name="kg_common_45dp">45dp</dimen>
+    <dimen name="kg_common_50dp">50dp</dimen>
+    <dimen name="kg_common_55dp">55dp</dimen>
+    <dimen name="kg_common_60dp">60dp</dimen>
+    <dimen name="kg_common_64dp">64dp</dimen>
+    <dimen name="kg_common_70dp">70dp</dimen>
+    <dimen name="kg_common_75dp">75dp</dimen>
+    <dimen name="kg_common_80dp">80dp</dimen>
+
+    <!-- 酷狗11-->
+    <dimen name="kg_xi_tab_header_height">45dp</dimen>
+    <dimen name="kg11_newsong_round_corner">10dp</dimen>
+    <dimen name="kg11_rec_newsong_item_icon_count_margin_top">-3dp</dimen>
+    <dimen name="kg11_rec_newsong_item_icon_count_margin_left">-5dp</dimen>
+    <dimen name="kg11_ui_out_margin_top">14.5dp</dimen>
+    <dimen name="kg11_ting_rec_recycler_view_margin_top">5dp</dimen>
+    <dimen name="kg11_ting_rec_live_item_height">120dp</dimen>
+    <dimen name="kg11_ting_ui_round_corner">10dp</dimen>
+    <dimen name="kg11_ting_rec_ranking_list_image_size">96.5dp</dimen>
+    <dimen name="kg11_ting_rec_ranking_list_sub_rv_height">155dp</dimen>
+    <dimen name="kg11_ting_rec_ranking_list_sub_rv_margin_top">100dp</dimen>
+    <dimen name="kg_navigation_assets_width">70dp</dimen>
+
+    <dimen name="kg11_longaudio_banner_corner_radius">15dp</dimen>
+    <dimen name="kg11_longaudio_margin_left">10dp</dimen>
+    <dimen name="kg11_longaudio_margin_bottom">10dp</dimen>
+
+    <dimen name="kg_11_main_rec_text_linespacingextra">2dp</dimen>
+    <dimen name="kg_11_mine_radius">0dp</dimen><!--酷狗11我的页圆角弧度-->
+    <dimen name="kg_11_rec_rank_image_height">35dp</dimen>
+
+    <dimen name="kg_11_mine_tabview_height">27dp</dimen><!--我的页卡片TabView高度-->
+
+    <dimen name="kg_dailybill_corner_size">15dp</dimen>
+    <dimen name="ktv_douge_level_full_top">26dp</dimen>
+    <dimen name="ktv_douge_level_top">5dp</dimen>
+    <dimen name="kg_ting_swipe_tab_margin_bottom">8.5dp</dimen>
+
+    <!-- setting界面的圆角的半径 -->
+    <dimen name="preference_category_height">30dip</dimen>
+    <dimen name="preference_category_total_height">43dip</dimen>
+    <dimen name="preference_category_content_height">33dip</dimen>
+    <dimen name="preference_childitem_marginright">15dip</dimen>
+    <dimen name="preference_childitem_shape_stroke_width">1px</dimen>
+    <dimen name="preference_childitem_height">50dip</dimen>
+    <dimen name="preference_childitem_msg_height">67dip</dimen>
+    <dimen name="preference_childitem_title_size">15dip</dimen>
+    <dimen name="preference_group_title_txt_size">12dip</dimen>
+    <dimen name="checkbox_preference_drawable_width">51dip</dimen>
+    <dimen name="checkbox_preference_drawable_height">31dip</dimen>
+
+    <dimen name="common_bottom_bar_height">48dip</dimen>
+    <dimen name="kg11_bottom_bar_tab_height">54dp</dimen>
+
+    <dimen name="kg_x_play_bar_bg_height">54dp</dimen>
+    <dimen name="kg_playing_bar_album_pic_padding_left">25dip</dimen>
+    <dimen name="kg_playing_bar_album_pic_padding_right">0dp</dimen>
+    <dimen name="kg_playing_bar_album_foreground_size">45dip</dimen>
+    <dimen name="kg_playing_bar_album_foreground_size_with_progress">45dip</dimen>
+    <dimen name="kg_playing_bar_right_layout_margin_left">45dip</dimen>
+    <dimen name="kg_lock_screen_play_control_panel_margin_bottom">25dip</dimen>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/comm_progress_bg"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/v8_normal_margin"
+        android:paddingLeft="@dimen/v8_normal_margin"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <ImageView
+            android:id="@+id/comm_progress_loading"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/common_list_bar_divider_marginright"
+            android:src="@drawable/comm_loading_progress" />
+
+        <TextView
+            android:id="@+id/comm_progress_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="请稍候"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ktv_textsize_16" />
+    </LinearLayout>
+</RelativeLayout>
