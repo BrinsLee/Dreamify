@@ -9,10 +9,10 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.StateListDrawable;
+import android.support.annotation.ColorInt;
+import android.support.annotation.DrawableRes;
+import android.support.annotation.Size;
 import android.util.StateSet;
-import androidx.annotation.ColorInt;
-import androidx.annotation.DrawableRes;
-import androidx.annotation.Size;
 import com.brins.commom.app.DRCommonApplication;
 import com.brins.commom.drawable.DrawableWrapper;
 import java.lang.ref.WeakReference;
@@ -340,7 +340,8 @@ public class DrawableUtil {
         return d;
     }
 
-    public static Drawable getDrawableApplyFilter(Context context, @DrawableRes int id, @ColorInt int color) {
+    public static Drawable getDrawableApplyFilter(Context context, @DrawableRes int id, @ColorInt
+        int color) {
         return new DrawableWrapper(context.getResources().getDrawable(id)).setTint(color).getDrawable();
     }
 }

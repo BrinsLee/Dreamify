@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Kugou.Theme.transparent" parent="@style/Kugou.Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="KGProgressDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Kugou.Theme.MiniAppStack" parent="MiniApp.Theme.transparent">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+
+    <style name="MiniApp.Theme.transparent" parent="@style/Kugou.Theme.transparent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="verifycodetheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item> <!-- 设置title -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item> <!-- 设置边框 -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 设置半透明 -->
+        <item name="android:windowFullscreen">true</item> <!-- 设置全屏 -->
+
+    </style>
+    <!-- Theme -->
+    <style name="Kugou.Theme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item>
+        <!-- <item name="android:alertDialogStyle">@style/Kugou.AlertDialog</item> -->
+        <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item>
+        <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+    </style>
+    <style name="Kugou.Theme.downloadDialog" mce_bogus="1" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <!--         <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item> -->
+        <!-- <item name="android:alertDialogStyle">@style/Kugou.AlertDialog</item> -->
+        <!--         <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item> -->
+        <!--         <item name="android:textColorPrimary">@color/max_text_color</item> -->
+        <!--         <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item> -->
+        <!--         <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item> -->
+        <!--         <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item> -->
+        <item name="android:windowAnimationStyle">@style/KGActivityShowStyle</item>
+    </style>
+    <style name="Kugou.Theme.LoadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Kugou.Theme" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:alertDialogStyle">@style/Kugou.AlertDialog</item> -->
+        <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item>
+        <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:checkboxStyle">@style/Kugou.Widget.CheckBox</item>
+        <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item>
+        <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+    </style>
+
+    <style name="Kugou.Theme.ThirdLogin" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:alertDialogStyle">@style/Kugou.AlertDialog</item> -->
+        <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item>
+        <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:checkboxStyle">@style/Kugou.Widget.CheckBox</item>
+        <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item>
+        <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+    </style>
+
+    <style name="Kugou.Theme.translucent" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:alertDialogStyle">@style/Kugou.AlertDialog</item> -->
+        <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item>
+        <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:checkboxStyle">@style/Kugou.Widget.CheckBox</item>
+        <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+        <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item>
+        <item name="android:windowBackground">@color/theme_transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+
+
+    <style name="anim_music_fees_activity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+
+    </style>
+
+
+    <style name="Kugou.Theme.translucent.LoginActivity" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item>
+        <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:checkboxStyle">@style/Kugou.Widget.CheckBox</item>
+        <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+        <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/anim_music_fees_activity</item>
+    </style>
+
+
+    <style name="Kugou.Theme.translucent.MusicFeesActivity" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:alertDialogStyle">@style/Kugou.AlertDialog</item> -->
+        <item name="android:imageButtonStyle">@style/Kugou.Widget.ImageButton</item>
+        <item name="android:buttonStyle">@style/Kugou.Widget.Dialog.Button</item>
+        <item name="android:textColorPrimary">@color/max_text_color</item>
+        <item name="android:checkboxStyle">@style/Kugou.Widget.CheckBox</item>
+        <item name="android:editTextStyle">@style/Kugou.Widget.EditText</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
+        <item name="android:progressBarStyleSmall">@style/Kugou.Widget.ProgressBar.Small</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/anim_music_fees_activity</item>
+    </style>
+
+    <style name="Kugou.Theme.translucent.FontPaymentActivity" parent="Kugou.Theme.translucent">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--
+	<style name="Kugou.Theme.Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    -->
+    <!--
+ <style name="Kugou.Theme.CustomBackground" parent="@android:Theme.Black">
+        <item name="android:windowBackground">@drawable/bg_splash_1</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+ </style>
+    -->
+    <style name="Kugou.Theme.CustomBackground" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Kugou.Theme.CustomBackgroundSplash" parent="@android:style/Theme.Black">
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Kugou.Theme.HiCarCustomBackgroundSplash" parent="@style/Kugou.Theme.CustomBackgroundSplash">
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+    </style>
+    <style name="Kugou.Theme.CustomFeedback" parent="@android:style/Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Kugou.Theme.ForeSplash" parent="@android:style/Theme.Black">
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/fore_activity</item>
+    </style>
+
+    <style name="Kugou.Theme.ImmersiveSplash" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- <item name="android:windowIsTranslucent">true</item> 这个会导致启动变慢  -->
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+    </style>
+    <style name="Kugou.Theme.SplashScreen" parent="@android:style/Theme.Black">
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/comm_widget_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/comm_widget_push_bottom_out</item>
+    </style>
+
+    <style name="fore_activity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fore_splash_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fore_splash_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fore_splash_fade_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/fore_splash_fade_out</item>
+    </style>
+
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="Theme.Translucent.NoTitleBar" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Transparent.NoTitleBar" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Kugou.Theme.BasicMode" parent="@style/Kugou.Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="Kugou.Theme.KGActivityPreview" parent="@style/Kugou.Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Kugou.Theme.KGActivityRuntime" parent="@style/Kugou.Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Kugou.Theme.HiCarKGActivityPreview" parent="@style/Kugou.Theme.KGActivityPreview">
+        <item name="android:windowBackground">@drawable/bg_splash_beta</item>
+    </style>
+    <style name="AudioBookBuyTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/AudioBook_Buy_Anim_Style</item>
+    </style>
+
+    <style name="GetCouponEntryTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AudioBook_Buy_Anim_Style">
+        <item name="android:windowEnterAnimation">@anim/activity_audiobook_buy_in</item>
+        <item name="android:windowExitAnimation">@anim/activity_audiobook_buy_out</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+
+    </style>
+
+    <style name="PopMenu">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--透明activity使用-->
+    <style name="vn">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">false</item>
+    </style>
+
+    <style name="Kugou.Widget.Dialog.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:textColor">@color/max_text_color</item>
+    </style>
+
+    <style name="Kugou.Widget.ImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="Kugou.Widget.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/skin_primary_text</item>
+        <item name="android:textColorHint">@color/skin_primary_disable_text</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textSize">@dimen/v8_textMediunSize</item>
+        <item name="android:paddingLeft">@dimen/v8_edittextpaddingLeft</item>
+    </style>
+
+    <style name="Kugou.Widget.ProgressBar.Small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+        <item name="android:minWidth">25dip</item>
+        <item name="android:maxWidth">25dip</item>
+        <item name="android:minHeight">25dip</item>
+        <item name="android:maxHeight">25dip</item>
+    </style>
+
+    <style name="KGActivityShowStyle" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/comm_widget_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@anim/comm_widget_push_bottom_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/comm_widget_push_bottom_out</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="Kugou.Widget.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/btn_check</item>
+        <item name="android:textColor">@color/max_text_color</item>
+    </style>
+</resources>

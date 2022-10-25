@@ -3,10 +3,8 @@ package com.brins.commom.preference;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
-import androidx.annotation.IntRange;
 import com.brins.commom.app.DRCommonApplication;
 import com.brins.commom.utils.log.DrLog;
-import org.json.JSONObject;
 
 /**
  * 前台进程专用sharedpreferences

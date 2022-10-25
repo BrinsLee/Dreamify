@@ -4,7 +4,6 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
-import androidx.annotation.StringRes;
 import com.kugou.common.permission.Action;
 import com.kugou.common.permission.KGPermission;
 import com.kugou.common.permission.Setting;

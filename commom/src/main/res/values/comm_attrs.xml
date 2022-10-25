@@ -32,4 +32,102 @@
         <attr name="loadingStr" format="reference|string"/>
         <attr name="loadingSecondStr" format="reference|string"/>
     </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+
+        <attr name="loadingTextColor" format="string|reference" />
+        <attr name="loadingTextSize" format="dimension" />
+        <attr name="loadingPrimaryText" format="string|reference" />
+        <attr name="loadingSecondaryText" format="string|reference" />
+        <attr name="loadingTextMode" format="enum" >
+            <enum name="normal" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+            <enum name="top_center" value="4"/>
+        </attr>
+        <attr name="iconBg" format="reference" />
+        <attr name="iconLogo" format="reference" />
+        <attr name="iconLoading" format="reference" />
+        <attr name="iconPrimaryColor" format="string|reference" />
+        <attr name="iconSecondaryColor" format="string|reference" />
+        <attr name="drawPadding" format="dimension" />
+        <!-- 这里与CommonLoadingView里面同时保持更新-->
+        <attr name="loadingPosition" format="enum">
+            <enum name="normal" value="1" />
+            <enum name="header" value="2" />
+            <enum name="footer" value="3" />
+            <enum name="floating" value="4" />
+            <enum name="mv_fee" value="10" />
+            <enum name="mv_buf" value="11" />
+            <enum name="song_play" value="12" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="kg_edge_size" format="dimension" />
+        <attr name="kg_edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="fa_topBar" format="boolean"/>
+    <attr name="fa_topBarBackground" format="reference"/>
+    <attr name="fa_topBarLeftDrawable" format="reference"/>
+    <attr name="fa_topBarOverlay" format="boolean"/>
+
+    <style name="Fanxing_Popwindow_Anim_Style">
+        <item name="android:windowEnterAnimation">@anim/fx_show_from_bottom_v4</item>
+        <item name="android:windowExitAnimation">@anim/fx_hide_to_bottom</item>
+    </style>
+
+    <!-- viewpagerindicator -->
+    <declare-styleable name="GameViewPagerIndicator">
+        <attr name="game_vpiTabTextCountStyle" format="reference" />
+        <attr name="game_vpiTabPageIndicatorStyle" format="reference" />
+        <attr name="game_vpiUnderlinePageIndicatorStyle" format="reference" />
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="UnderlinePageIndicator">
+
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="game_fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="game_fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="game_fadeLength" format="integer" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="game_selectedColor" format="color" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <declare-styleable name="AccessibilityImageView">
+        <attr name="remark" format="string" />
+        <attr name="img_name" format="string" />
+        <attr name="need_speak" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="KGTransImageButton">
+        <attr name="kg_tib_alpha_def" format="float"></attr>
+        <attr name="can_alpha" format="boolean"></attr>
+    </declare-styleable>
+
+
 </resources>

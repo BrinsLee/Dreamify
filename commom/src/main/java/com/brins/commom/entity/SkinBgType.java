@@ -6,5 +6,6 @@ public enum SkinBgType {
     //播放页背景
     PLAYER,
     //弹窗背景
-    DIALOG
+    DIALOG,
+    MENU
 }

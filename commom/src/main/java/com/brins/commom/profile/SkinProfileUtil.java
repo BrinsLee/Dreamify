@@ -2,9 +2,9 @@ package com.brins.commom.profile;
 
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.support.annotation.IntRange;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
-import androidx.annotation.IntRange;
-import androidx.core.content.ContextCompat;
 import com.brins.commom.R;
 import com.brins.commom.app.DRCommonApplication;
 import com.brins.commom.entity.SkinColorType;

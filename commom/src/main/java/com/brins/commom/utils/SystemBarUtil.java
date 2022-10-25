@@ -1,7 +1,7 @@
 package com.brins.commom.utils;
 
+import android.support.annotation.IntRange;
 import android.view.View;
-import androidx.annotation.IntRange;
 
 /**
  * @Description: From one bug to another bug

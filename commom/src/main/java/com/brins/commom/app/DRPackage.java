@@ -11,6 +11,8 @@ public class DRPackage {
     public static final String OFFICIAL_PKG_NAME = "com.brins.dreamify";
     public static final String PKG_NAME = OFFICIAL_PKG_NAME;
 
+    public static final String FORE_PROCESS_NAME = PKG_NAME;
+
     public static final String PKG_PATH = "/data/data/" + PKG_NAME;
 
     public static boolean isDreamifyPackage() {

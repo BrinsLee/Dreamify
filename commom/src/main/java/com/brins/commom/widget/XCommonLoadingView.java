@@ -18,17 +18,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.ImageView;
-import com.kugou.common.R;
-import com.kugou.common.base.page.LoadingTypes;
-import com.kugou.common.base.page.PageInfoUtil;
-import com.kugou.common.skinpro.utils.ColorUtil;
+import com.brins.commom.R;
+import com.brins.commom.skin.ColorUtil;
+import com.brins.commom.toast.LoadingTypes;
+import com.brins.commom.utils.SystemUtils;
+import com.brins.commom.utils.log.DrLog;
 import com.kugou.common.skinpro.widget.ISkinViewUpdate;
-import com.kugou.common.utils.KGLog;
-import com.kugou.common.utils.SystemUtils;
-import com.kugou.common.widget.loading.LoadingApmHelper;
 import java.util.concurrent.TimeUnit;
 
-public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,LoadingApmHelper.LoadingView {
+public class XCommonLoadingView extends ImageView implements ISkinViewUpdate {
 
     private final String TAG = "wwh-XCommonLoadingView";
 
@@ -72,7 +70,6 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
 
     private boolean useLoadingApm = true;
 
-    private LoadingApmHelper mLoadingApmHelper;
 
     private int iconNormalColor,arcNormalColor,changeColor;
 
@@ -196,14 +193,14 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        if (KGLog.isDebug()){
-            KGLog.d("XCommonLoadingView", "onAttachedToWindow:%s, %b", this, isAutoStartRefreshByAttach);
+        if (DrLog.isDebug()){
+            DrLog.d("XCommonLoadingView", "onAttachedToWindow:%s, %b", this, isAutoStartRefreshByAttach);
         }
         isDetachedFromWindow = false;
         if (isAutoStartRefreshByAttach && getVisibility() == View.VISIBLE){
             long originalStartTime = startTime;
             long remain = getRemainChangeTime();
-            KGLog.d(TAG, "getRemainChangeTime: %d , st:%d", remain, startTime);
+            DrLog.d(TAG, "getRemainChangeTime: %d , st:%d", remain, startTime);
             startRefresh(Math.max(remain, 0), true);
             startTime = originalStartTime; //startRefresh()中会修改startTime，这里要恢复它真正的开始的时间
         }
@@ -218,8 +215,8 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         super.onDetachedFromWindow();
         isDetachedFromWindow = true;
         long st = this.startTime;
-        if (KGLog.isDebug()){
-            KGLog.d("XCommonLoadingView","onDetachedFromWindow :" + toString());
+        if (DrLog.isDebug()){
+            DrLog.d("XCommonLoadingView","onDetachedFromWindow :" + toString());
         }
         endRefresh(true);
         this.startTime = st;
@@ -268,7 +265,7 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
     }
 
     public boolean startRefresh(long changeColorTimeMillis, boolean forceRestart) {
-        KGLog.d(TAG, "startRefresh (%s) %b , %d", this, forceRestart, changeColorTimeMillis);
+        DrLog.d(TAG, "startRefresh (%s) %b , %d", this, forceRestart, changeColorTimeMillis);
         if (isRefreshing && !forceRestart){
             return false;
         }
@@ -278,7 +275,7 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         }
         initSizeState();
         resetState();
-        KGLog.d(TAG, "startRefresh (%s) isChangeColor=%b", this, isChangeColor);
+        DrLog.d(TAG, "startRefresh (%s) isChangeColor=%b", this, isChangeColor);
         if (getDrawable() != null){
             Drawable drawable = getDrawable();
             if (drawable instanceof LayerDrawable){
@@ -305,9 +302,9 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         angeleAnimator.setRepeatCount(-1);
         isRefreshing = true;
         angeleAnimator.start();
-//        if (KGLog.isDebug()){
+//        if (DrLog.isDebug()){
 //            //此处打印较频繁，先注释掉
-//            KGLog.printException(TAG + " startRefresh--" + hashCode() + "  -- visible :" + (getVisibility() == VISIBLE),new Throwable());
+//            DrLog.printException(TAG + " startRefresh--" + hashCode() + "  -- visible :" + (getVisibility() == VISIBLE),new Throwable());
 //        }
         if (mTimer == null) {
             mTimer = new CountDownTimer(Math.max(changeColorTimeMillis, 0L), 1000) {
@@ -317,7 +314,7 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
 
                 @Override
                 public void onFinish() {
-                    KGLog.d(TAG, "Timer onFinish");
+                    DrLog.d(TAG, "Timer onFinish");
                     startChangeColorRefresh();
                 }
             };
@@ -331,7 +328,7 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
     }
 
     private void startChangeColorRefresh() {
-        KGLog.d(TAG, "%s , startChangeColorRefresh", this);
+        DrLog.d(TAG, "%s , startChangeColorRefresh", this);
         isChangeColor = true;
         if (getDrawable() != null){
             Drawable drawable = getDrawable();
@@ -345,17 +342,15 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
             onLoadingListener.onChangeColor();
         }
 //                    setColorFilter(changeColor, PorterDuff.Mode.SRC_IN);
-        if (mLoadingApmHelper != null) {
-            mLoadingApmHelper.onChangeColor();
-        }
+
         invalidate();
     }
 
     public void endRefresh(boolean autoEnd){
         isRefreshing = false;
-//        if (KGLog.isDebug()){
+//        if (DrLog.isDebug()){
         //此处打印较频繁，先注释掉
-//            KGLog.printException(TAG + " ******finishRefresh--" + hashCode() + "  -- visible :" + (getVisibility() == VISIBLE),new Throwable());
+//            DrLog.printException(TAG + " ******finishRefresh--" + hashCode() + "  -- visible :" + (getVisibility() == VISIBLE),new Throwable());
 //        }
         if (angeleAnimator != null){
             angeleAnimator.cancel();
@@ -365,9 +360,6 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         if (mTimer != null) {
             mTimer.cancel();
             mTimer = null;
-        }
-        if (autoEnd) {
-            stopApm();
         }
         if (getDrawable() != null){
             Drawable drawable = getDrawable();
@@ -385,11 +377,6 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         return isRefreshing;
     }
 
-    @Override
-    public int getPageId() {
-        return PageInfoUtil.getPageId(this);
-    }
-
     private String fo;
 
     public String getFo() {
@@ -400,15 +387,6 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         this.fo = fo;
     }
 
-    @Override
-    public int getType() {
-        return mLoadingType;
-    }
-
-    @Override
-    public long getTimestamp() {
-        return PageInfoUtil.getTimestamp(this);
-    }
 
     public void setPullScale(float scale) {
         mIsPullMode = true;
@@ -428,9 +406,6 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
     }
 
     public void restartRefresh(boolean resetApm) {
-        if (resetApm) {
-            mLoadingApmHelper = null;
-        }
         endRefresh(false);
         startRefresh();
     }
@@ -482,52 +457,16 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
         }
         super.onVisibilityChanged(changedView, visibility);
         if (!isVisible) {
-            stopApm();
             return;
         }
     }
 
-    private void stopApm() {
-        if (mLoadingApmHelper != null) {
-            if (KGLog.DEBUG) {
-                //KGLog.e(TAG, "结束APM：" + getPageId());
-            }
-            mLoadingApmHelper.onEnd();
-            mLoadingApmHelper = null;
-//            startTime = 0;
-        }
-    }
 
     @Override
     public void draw(Canvas canvas) {
         super.draw(canvas);
-        checkStartApm();
     }
 
-    /**
-     * 开始apm
-     */
-    private void checkStartApm() {
-        if (mLoadingApmHelper != null) return;
-        try {
-            getLocationOnScreen(mLocationOnScreen);//获取view在屏幕中的位置
-        } catch (Exception e) { e.printStackTrace();}
-
-        if (isViewInParentVisibleRect() && allowStatistics) {//allowStatistics恒定为true
-            if (KGLog.DEBUG) {
-                //KGLog.e(TAG, "开始初始化APM:" + getPageId());
-            }
-            mLoadingApmHelper = new LoadingApmHelper(this);
-//            resetState();
-//            if (mTimer != null) {
-//                mTimer.cancel();
-//                mTimer.purge();
-//                mTimer = null;
-//            }
-//            mTimer = new Timer();
-//            mTimer.schedule(new ChangeColorTimerTask(), TimeUnit.SECONDS.toMillis(mChangeTime));
-        }
-    }
 
     private boolean isViewInParentVisibleRect() {
         Rect loadingRect = getDrawingRectGlobal(this);
@@ -590,7 +529,7 @@ public class XCommonLoadingView extends ImageView implements ISkinViewUpdate,Loa
     }
 
     public void resetStartTime() {
-        KGLog.d(TAG, "resetStartTime %s", this);
+        DrLog.d(TAG, "resetStartTime %s", this);
         startTime = SystemClock.elapsedRealtime();
     }
 }

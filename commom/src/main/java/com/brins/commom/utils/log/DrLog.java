@@ -1,9 +1,9 @@
 package com.brins.commom.utils.log;
 
 import android.os.Looper;
+import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 import android.util.Log;
-import androidx.annotation.WorkerThread;
 import com.brins.commom.constant.GlobalStorageManager;
 
 import static android.util.Log.e;

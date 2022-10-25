@@ -2,7 +2,7 @@ package com.brins.commom.constant;
 
 import android.Manifest;
 import android.os.Environment;
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 import com.brins.commom.app.DRCommonApplication;
 import com.kugou.common.permission.KGPermission;
 import java.io.File;

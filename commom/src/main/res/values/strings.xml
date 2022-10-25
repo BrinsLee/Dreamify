@@ -1,11 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="loading_tips_secondary">网络较慢，正在努力加载</string>
     <string name="loading_tips_primary">加载中，请稍候</string>
-    <string name="skin_version">1.15.0</string>
+    <string name="waiting">加载中，请稍候</string>
 
     <string name="ktv_service_error_no_net">加载失败，轻触屏幕重试</string>
     <string name="no_network">未找到可用的网络连接</string>
-
+    <string name="accessibility_main_top_mine">我的</string>
+    <string name="accessibility_main_top_ting">首页</string>
     <!-- 换肤之颜色 -->
     <string name="st_color_changed_key" tools:ignore="UnusedResources">COLOR_CHANGED</string>
     <string name="st_state_color_id_key">STATE_COLOR_ID</string>

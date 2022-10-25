@@ -1,3 +1,6 @@
 rootProject.name = "Dreamify"
 include ':app'
 include ':commom'
+include ':arouter_api'
+include ':arouter_annotation'
+include ':arouter_compiler'

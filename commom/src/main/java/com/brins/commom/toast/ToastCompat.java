@@ -6,12 +6,12 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.Build;
+import android.support.annotation.NonNull;
+import android.support.annotation.StringRes;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import androidx.annotation.NonNull;
-import androidx.annotation.StringRes;
 import java.lang.reflect.Field;
 
 /**

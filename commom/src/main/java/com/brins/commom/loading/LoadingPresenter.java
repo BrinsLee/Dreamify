@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.TextView;
+import com.brins.commom.R;
 import com.brins.commom.widget.CommonLoadingView;
 import com.brins.commom.widget.LoadingManager;
 import com.brins.commom.widget.TimeSpec;
@@ -278,15 +279,5 @@ public class LoadingPresenter implements ILoadingPresenter {
         }
 
         return false;
-    }
-
-    /**
-     * 判断是否应该开始一次新的统计, 要开始一次新的统计必须满足以下条件：
-     * 1. loadingView必须在View树中(http://bugfree.kugou.net/index.php/bug/90868)
-     * 2. 没有正在统计的loadingView 或者 存在统计的loadingview但是时间长度已经超过2分钟(怀疑可能存在只开始不结束的loadingView)
-     * @return 可以开始新的统计返回 true，否则返回 false
-     */
-    private boolean canStartNewApm() {
-        return PageInfoUtil.isInViewTree(mLoadingView);
     }
 }

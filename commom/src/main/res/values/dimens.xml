@@ -48,6 +48,7 @@
     <dimen name="playing_listenpart_bar_height_without_shadow">30dip</dimen>
     <dimen name="comm_main_top_padding">0dip</dimen>
     <dimen name="playing_view_padding">10dp</dimen>
+    <dimen name="playing_bar_height">65dip</dimen>
     <!-- 7.0注册 -->
     <dimen name="kg_reg_fragment_titlebar_title">18dip</dimen>
     <dimen name="kg_reg_edittext_marginleft">10dip</dimen>
@@ -376,7 +377,6 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <item name="item_touch_helper_previous_elevation" type="id" />
 
     <declare-styleable name="coverImg">
         <attr name="cover_color" format="color" />
@@ -944,4 +944,241 @@
     <dimen name="kg_playing_bar_right_layout_margin_left">45dip</dimen>
     <dimen name="kg_lock_screen_play_control_panel_margin_bottom">25dip</dimen>
 
+    <!--酷狗11-->
+    <dimen name="kg_main_playing_bar_height">45dp</dimen>
+
+    <dimen name="kg_main_playing_bar_large_height">65dp</dimen>
+
+    <dimen name="kg_listen_slide_icon_size">15dp</dimen>
+    <dimen name="kg_listen_slide_icon_padding">10dp</dimen>
+    <dimen name="kg_listen_slide_content_margin_left">17dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="audio_item_local_icon_height">12dip</dimen>
+    <dimen name="audio_item_hq_icon_width">20dip</dimen>
+    <dimen name="audio_item_hq_icon_height">12dip</dimen>
+    <dimen name="navigation_item_height">56dip</dimen>
+    <dimen name="list_dividing_item_height">35dip</dimen>
+    <dimen name="play_list_item_height">70dip</dimen>
+    <dimen name="play_list_item_pix_height">65dip</dimen>
+    <dimen name="play_list_item_album_bg_pix_width">77dip</dimen>
+    <dimen name="downloading_list_item_height">60dip</dimen>
+    <dimen name="btn_toggle_menu_paddingtop">20dip</dimen>
+    <dimen name="playing_indicator_width">4dip</dimen>
+    <dimen name="playing_indicator_height">48dip</dimen>
+    <dimen name="main_bar_subtitle_text_size">13dip</dimen>
+    <dimen name="lyr_text_size">24px</dimen>
+    <dimen name="vol_seekbar_height">2dip</dimen>
+    <dimen name="audio_list_item_title_margin_right">5dip</dimen>
+    <dimen name="audio_item_local_mark_margin_right">4dip</dimen>
+    <dimen name="navigation_icon_width">52dip</dimen>
+    <dimen name="close_icon_width">56dip</dimen>
+    <dimen name="channel_list_item_icon_height">50dip</dimen>
+
+    <dimen name="kg_downloading_songname_font_size_32px">16sp</dimen>
+    <dimen name="kg_downloadmgr_promty_font_size_24px">12dp</dimen>
+
+    <!-- 系统菜单 -->
+    <dimen name="system_menu_height">75dip</dimen>
+    <dimen name="system_menu_divider_height">50dip</dimen>
+    <dimen name="system_menu_icon_text_padding">8dip</dimen>
+    <dimen name="system_menu_item_margin">5dip</dimen>
+
+    <!-- 扫描界面 -->
+    <dimen name="scan_all_height">50dip</dimen>
+    <dimen name="scanbtn_text_size">16dip</dimen>
+    <dimen name="play_list_common_bar_header_height">30dip</dimen>
+    <dimen name="lsit_common_bar_right_btn_width">80dip</dimen>
+    <dimen name="lsit_common_bar_right_btn_width_2">55dip</dimen>
+    <dimen name="common_checkbox_title_bar_checkbox_marginright">20dip</dimen>
+    <dimen name="scan_all_width">214dip</dimen>
+    <dimen name="scan_folder_layout_width">115dip</dimen>
+    <dimen name="scan_no_music_text_size">12dip</dimen>
+    <dimen name="btn_wifi_transfer_layout_width">250dip</dimen>
+    <dimen name="wifi_web_server_address_width">226dip</dimen>
+    <dimen name="wifi_nsfering_tip_width">230dip</dimen>
+    <dimen name="scan_top_layout_height">190dp</dimen>
+
+    <!-- 中字体大小 -->
+    <dimen name="textSuperLargeSize">23dip</dimen>
+    <dimen name="textSpecialSize">18dp</dimen>
+    <dimen name="albumBoughtSize">16dip</dimen>
+    <dimen name="albumBoughtCount">12dip</dimen>
+
+    <dimen name="kg_item_type_font_size_28px">14dp</dimen>
+    <dimen name="kg_item_type_font_size_26px">13dp</dimen>
+    <dimen name="kg_item_type_font_size_24px">12dp</dimen>
+    <dimen name="kg_item_type_span_font_size_22px">11dp</dimen>
+    <dimen name="kg_item_type_span_font_size_30px">15dp</dimen>
+    <dimen name="kg_primary_text_size">16sp</dimen>
+    <dimen name="kg_input_edit_text_size">15sp</dimen>
+
+    <dimen name="kg_listen_slide_menu_bottom_height">55dip</dimen>
+    <dimen name="kg_listen_slide_menu_main_icon_width">23dip</dimen>
+    <dimen name="kg_listen_slide_menu_main_icon_height">23dip</dimen>
+    <dimen name="kg_lock_screen_top_control_panel_margin_top">5dip</dimen>
+    <dimen name="kg_listen_slide_menu_main_padding_left">20dip</dimen>
+    <dimen name="kg_listen_slide_menu_bottom_btn_margin_right">10dip</dimen>
+
+    <!-- 音效页 -->
+    <dimen name="kg_eq_viper_scoller_chanage_size">5dp</dimen>
+    <dimen name="kg_eq_viper_margin_top_1">65dp</dimen>
+    <dimen name="kg_eq_viper_margin_top_2">0dp</dimen>
+    <dimen name="kg_eq_viper_margin_top_3">14dp</dimen>
+    <dimen name="kg_eq_viper_margin_top_4">22dp</dimen>
+    <dimen name="kg_eq_viper_margin_top_5">30dp</dimen>
+    <dimen name="kg_eq_custom_margin_top_1">35dip</dimen>
+
+    <dimen name="kg_splash_bottom_layer_height">65dp</dimen>
+    <dimen name="kg_splash_bottom_layer_text_cn">12dp</dimen>
+    <dimen name="kg_splash_bottom_layer_left_right_padding">18dp</dimen>
+
+    <dimen name="minilyric_size_and_color_height">56dip</dimen>
+
+    <dimen name="viper_title_radio_textsize">13dp</dimen>
+    <dimen name="viper_title_radio_edgepadding">12dp</dimen>
+    <dimen name="viper_title_radio_padding">10dp</dimen>
+    <dimen name="common_main_bottom_bar_debug_height">63dip</dimen>
+    <!-- 歌词样式控制面板宽度 -->
+    <dimen name="lyric_control_margin_long">20dip</dimen>
+    <dimen name="singer_list_image_size">54dip</dimen>
+    <dimen name="lyric_padding_width">0dip</dimen>
+    <dimen name="secondTab">40dip</dimen>
+    <dimen name="lyric_margin_top">40dip</dimen>
+
+    <dimen name="common_0_5dp">0.5dp</dimen>
+    <dimen name="common_1dp">1dp</dimen>
+    <dimen name="common_1_5dp">1.5dp</dimen>
+    <dimen name="common_2dp">2dp</dimen>
+    <dimen name="common_2_5dp">2.5dp</dimen>
+    <dimen name="common_3dp">3dp</dimen>
+    <dimen name="common_3_5dp">3.5dp</dimen>
+    <dimen name="common_4dp">4dp</dimen>
+    <dimen name="common_4_5dp">4.5dp</dimen>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_5_5dp">5.5dp</dimen>
+    <dimen name="common_6dp">6dp</dimen>
+    <dimen name="common_6_5dp">6.5dp</dimen>
+    <dimen name="common_7dp">7dp</dimen>
+    <dimen name="common_7_5dp">7.5dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_8_5dp">8.5dp</dimen>
+    <dimen name="common_9dp">9dp</dimen>
+    <dimen name="common_9_5dp">9.5dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_10_5dp">10.5dp</dimen>
+    <dimen name="common_11dp">11dp</dimen>
+    <dimen name="common_12dp">12dp</dimen>
+    <dimen name="common_12_5dp">12.5dp</dimen>
+    <dimen name="common_13dp">13dp</dimen>
+    <dimen name="common_13_5dp">13.5dp</dimen>
+    <dimen name="common_14dp">14dp</dimen>
+    <dimen name="common_15dp">15dp</dimen>
+    <dimen name="common_16dp">16dp</dimen>
+    <dimen name="common_17dp">17dp</dimen>
+    <dimen name="common_18dp">18dp</dimen>
+    <dimen name="common_19dp">19dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_21dp">21dp</dimen>
+    <dimen name="common_22dp">22dp</dimen>
+    <dimen name="common_23dp">23dp</dimen>
+    <dimen name="common_24dp">24dp</dimen>
+    <dimen name="common_25dp">25dp</dimen>
+    <dimen name="common_26dp">26dp</dimen>
+    <dimen name="common_27dp">27dp</dimen>
+    <dimen name="common_28dp">28dp</dimen>
+    <dimen name="common_29dp">29dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_31dp">31dp</dimen>
+    <dimen name="common_32dp">32dp</dimen>
+    <dimen name="common_33dp">33dp</dimen>
+    <dimen name="common_34dp">34dp</dimen>
+    <dimen name="common_35dp">35dp</dimen>
+    <dimen name="common_36dp">36dp</dimen>
+    <dimen name="common_37dp">37dp</dimen>
+    <dimen name="common_38dp">38dp</dimen>
+    <dimen name="common_39dp">39dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_41dp">41dp</dimen>
+    <dimen name="common_42dp">42dp</dimen>
+    <dimen name="common_43dp">43dp</dimen>
+    <dimen name="common_44dp">44dp</dimen>
+    <dimen name="common_45dp">45dp</dimen>
+    <dimen name="common_46dp">46dp</dimen>
+    <dimen name="common_47dp">47dp</dimen>
+    <dimen name="common_48dp">48dp</dimen>
+    <dimen name="common_49dp">49dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_51dp">51dp</dimen>
+    <dimen name="common_52dp">52dp</dimen>
+    <dimen name="common_53dp">53dp</dimen>
+    <dimen name="common_54dp">54dp</dimen>
+    <dimen name="common_55dp">55dp</dimen>
+    <dimen name="common_56dp">56dp</dimen>
+    <dimen name="common_57dp">57dp</dimen>
+    <dimen name="common_58dp">58dp</dimen>
+    <dimen name="common_59dp">59dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_61dp">61dp</dimen>
+    <dimen name="common_62dp">62dp</dimen>
+    <dimen name="common_63dp">63dp</dimen>
+    <dimen name="common_64dp">64dp</dimen>
+    <dimen name="common_65dp">65dp</dimen>
+    <dimen name="common_66dp">66dp</dimen>
+    <dimen name="common_67dp">67dp</dimen>
+    <dimen name="common_68dp">68dp</dimen>
+    <dimen name="common_69dp">69dp</dimen>
+    <dimen name="common_70dp">70dp</dimen>
+    <dimen name="common_71dp">71dp</dimen>
+    <dimen name="common_72dp">72dp</dimen>
+    <dimen name="common_73dp">73dp</dimen>
+    <dimen name="common_74dp">74dp</dimen>
+    <dimen name="common_75dp">75dp</dimen>
+    <dimen name="common_76dp">76dp</dimen>
+    <dimen name="common_77dp">77dp</dimen>
+    <dimen name="common_78dp">78dp</dimen>
+    <dimen name="common_79dp">79dp</dimen>
+    <dimen name="common_80dp">80dp</dimen>
+    <dimen name="common_81dp">81dp</dimen>
+    <dimen name="common_82dp">82dp</dimen>
+    <dimen name="common_83dp">83dp</dimen>
+    <dimen name="common_84dp">84dp</dimen>
+    <dimen name="common_85dp">85dp</dimen>
+    <dimen name="common_86dp">86dp</dimen>
+    <dimen name="common_87dp">87dp</dimen>
+    <dimen name="common_88dp">88dp</dimen>
+    <dimen name="common_89dp">89dp</dimen>
+    <dimen name="common_90dp">90dp</dimen>
+    <dimen name="common_91dp">91dp</dimen>
+    <dimen name="common_92dp">92dp</dimen>
+    <dimen name="common_93dp">93dp</dimen>
+    <dimen name="common_94dp">94dp</dimen>
+    <dimen name="common_95dp">95dp</dimen>
+    <dimen name="common_96dp">96dp</dimen>
+    <dimen name="common_97dp">97dp</dimen>
+    <dimen name="common_98dp">98dp</dimen>
+    <dimen name="common_99dp">99dp</dimen>
+    <dimen name="common_100dp">100dp</dimen>
+    <dimen name="common_108dp">108dp</dimen>
+    <dimen name="common_110dp">110dp</dimen>
+    <dimen name="common_114dp">114dp</dimen>
+    <dimen name="common_120dp">120dp</dimen>
+    <dimen name="common_125dp">125dp</dimen>
+    <dimen name="common_130dp">130dp</dimen>
+    <dimen name="common_132dp">132dp</dimen>
+    <dimen name="common_135dp">135dp</dimen>
+    <dimen name="common_140dp">140dp</dimen>
+    <dimen name="common_150dp">150dp</dimen>
+    <dimen name="common_160dp">160dp</dimen>
+    <dimen name="common_170dp">170dp</dimen>
+    <dimen name="common_183dp">183dp</dimen>
+    <dimen name="common_190dp">190dp</dimen>
+    <dimen name="common_193dp">193dp</dimen>
+    <dimen name="common_202dp">202dp</dimen>
+    <dimen name="common_225dp">225dp</dimen>
+    <dimen name="common_283dp">283dp</dimen>
+    <dimen name="common_296dp">296dp</dimen>
+
+    <dimen name="common_main_bottom_bar_online_skin_space">10dip</dimen>
 </resources>

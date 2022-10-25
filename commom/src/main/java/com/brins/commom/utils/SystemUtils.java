@@ -59,10 +59,12 @@ import android.provider.MediaStore.Images.ImageColumns;
 import android.provider.MediaStore.MediaColumns;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
-import androidx.annotation.ColorRes;
-import androidx.annotation.IntDef;
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
+import android.support.annotation.ColorRes;
+import android.support.annotation.NonNull;
+import android.support.annotation.IntDef;
+import android.support.annotation.RequiresApi;
+import android.support.constraint.ConstraintLayout;
+import android.support.v4.app.NotificationCompat;
 import android.telephony.TelephonyManager;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -94,8 +96,6 @@ import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
 import android.widget.Toast;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.core.app.NotificationCompat;
 import com.brins.commom.R;
 import com.brins.commom.app.DRCommonApplication;
 import com.brins.commom.app.DRPackage;
@@ -105,6 +105,8 @@ import com.brins.commom.entity.ScreenSizeType;
 import com.brins.commom.entity.ScreenType;
 import com.brins.commom.entity.SkinColorType;
 import com.brins.commom.permission.PermissionHandler;
+import com.brins.commom.preference.CommonSettingPrefs;
+import com.brins.commom.preference.SharedPreferencesForeProcess;
 import com.brins.commom.skin.SkinResourcesUtils;
 import com.brins.commom.toast.ToastCompat;
 import com.brins.commom.utils.log.DrLog;
@@ -158,7 +160,8 @@ import org.json.JSONObject;
 
 import static android.content.Context.APP_OPS_SERVICE;
 import static android.content.Context.NOTIFICATION_SERVICE;
-import static java.lang.Long.parseLong;
+import static com.kugou.common.utils.FrameworkSystemUtils.getTotalMemoryLongByFile;
+
 
 public class SystemUtils {
 
@@ -4579,9 +4582,9 @@ public class SystemUtils {
     private static NotificationChannel getNotificationChannel(Context context, String channelId) {
         NotificationManager manager = (NotificationManager) DRCommonApplication.getContext().getSystemService(NOTIFICATION_SERVICE);
         NotificationChannel channel = manager.getNotificationChannel(channelId);
-        if (channel == null) {
+        /*if (channel == null) {
             KGNotificationChannel.handleNotificationChannel(context, channelId, true);
-        }
+        }*/
         channel = manager.getNotificationChannel(channelId);
         return channel;
     }
@@ -4710,11 +4713,11 @@ public class SystemUtils {
     /**
      * 用来判断服务是否运行.
      *
-     * @param mContext
+     * @param
      * @param
      * @return true 在运行 false 不在运行
      */
-    public static boolean isSupportServiceRunning(Context mContext) {
+/*    public static boolean isSupportServiceRunning(Context mContext) {
         boolean isRunning = false;
         try {
             ActivityManager activityManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
@@ -4735,7 +4738,7 @@ public class SystemUtils {
             DrLog.printException("RConnector", e);
         }
         return isRunning;
-    }
+    }*/
 
     public static String getNoNetworkStringNoData(Context ctx) {
         if (!SystemUtils.isAvalidNetSetting(ctx)) {
@@ -5326,7 +5329,7 @@ public class SystemUtils {
      * @return
      */
     public static int getNotificationColor(Context context) {
-        try {
+        /*try {
             NotificationCompat.Builder builder = new NotificationCompat.Builder(context, KGNotificationChannel.NORMAL_MSG_CHANNEL_ID);
             Notification notification = builder.build();
             int layoutId = notification.contentView.getLayoutId();
@@ -5337,7 +5340,7 @@ public class SystemUtils {
             return findColor(viewGroup);
         } catch (Exception e) {
             e.printStackTrace();    //系统错误，用try捕获
-        }
+        }*/
         return Color.TRANSPARENT;
     }
 
@@ -6007,23 +6010,23 @@ public class SystemUtils {
     }
 
 
-    public static boolean isAdaptSystemDark() {
+/*    public static boolean isAdaptSystemDark() {
         if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
             return false;
         }
         return DefaultPrefs.getInstance().isAdaptSystemDarkMode() && SystemUtils.getIsNightMode(DRCommonApplication.getContext())
-                && SkinProfileUtil.isDefaultLocalDarkNightSkin()/* && (CommonSettingPrefs.getInstance().getAdapterSystemDarkModeState() == 1)*/;
-    }
+                && SkinProfileUtil.isDefaultLocalDarkNightSkin()*//* && (CommonSettingPrefs.getInstance().getAdapterSystemDarkModeState() == 1)*//*;
+    }*/
 
-    public static boolean needAdaptSystemDark() {
+/*    public static boolean needAdaptSystemDark() {
         if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
             return false;
         }
         return DefaultPrefs.getInstance().isAdaptSystemDarkMode() && SystemUtils.getIsNightMode(DRCommonApplication.getContext());
-    }
+    }*/
 
     public static void adaptSystemUiMode() {
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
+        /*if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {
             return;
         }
         //如果设置中适配系统深色模式开关打开
@@ -6057,7 +6060,7 @@ public class SystemUtils {
                     }
                 }
             }
-        }
+        }*/
     }
 
     //public static void sendUiModeChangeNotify(Configuration newConfig) {

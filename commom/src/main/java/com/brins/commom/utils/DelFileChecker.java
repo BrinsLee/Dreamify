@@ -1,9 +1,9 @@
 package com.brins.commom.utils;
 
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseArray;
-import androidx.annotation.Nullable;
 import com.brins.commom.utils.log.DrLog;
 import com.brins.commom.worker.Instruction;
 import com.brins.commom.worker.WorkScheduler;
@@ -64,6 +64,17 @@ public class DelFileChecker {
             }
         }
         return false;
+    }
+
+    public void check(File f, int byWho, boolean successed){
+        //        if(!isPicked()){
+        //            return;
+        //        }
+        //        if(successed) {
+        //            Bean bean = new Bean(new RuntimeException(), f, byWho, successed, false);
+        //            Message msg = mHandler.obtainMessage(MSG_DEL_FILE_SUCCESSED, bean);
+        //            mHandler.sendMessage(msg);
+        //        }
     }
 
     /**

@@ -21,4 +21,6 @@ public class SkinConfig {
     public final static String DEFAULT_SKIN_DARK_NIGHT_PATH = "default_dark_night_skin.ks";
 
     public final static String SKIN_SOLID_SKIN_PATH_START = "solid_";
+
+    public final static String ACTION_SKIN_CHANGED = "action.com.brins.dreamify.skin.changed";
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <color android:color="#00A9ff" />
+    </item>
+
+
+    <item android:bottom="75dp">
+        <bitmap
+            android:gravity="bottom|center_horizontal"
+            android:src="@drawable/splash_bottom_logo_icon_version_x" />
+    </item>
+
+</layer-list>

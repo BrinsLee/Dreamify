@@ -4,6 +4,9 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.support.annotation.IntRange;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
@@ -12,10 +15,8 @@ import android.text.TextUtils;
 import android.text.format.Formatter;
 import android.text.style.AbsoluteSizeSpan;
 import android.text.style.ForegroundColorSpan;
-import android.util.Log;
-import androidx.annotation.IntRange;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import com.brins.commom.font.CustomTypefaceSpan;
+import com.brins.commom.font.SemiBoldFontManager;
 import com.brins.commom.utils.log.DrLog;
 import com.brins.commom.widget.VerticalImageSpan;
 import java.io.ByteArrayOutputStream;
@@ -979,19 +980,6 @@ public class StringUtil {
         return new String(newBytes);
     }
 
-    /**
-     * 下载文件保存路径
-     *
-     * @param context
-     * @return
-     */
-    public static String getDownloadPath(Context context) {
-        String downloadPath = DefaultPrefs.getInstance().getDownloadedPath();
-        if (!downloadPath.endsWith("/")) {
-            downloadPath += "/";
-        }
-        return downloadPath;
-    }
 
     /**
      * 获取默认的图片下载路径，已包含文件名
@@ -1866,21 +1854,6 @@ public class StringUtil {
         return TextUtils.equals(s.toLowerCase(), s1.toLowerCase());
     }
 
-    public static String[] splitConfigValue(ConfigKey configKey, String splitChar) {
-        try {
-            String configData = KGConfigManager.getInstance().getConfig(configKey);
-            if (!TextUtils.isEmpty(configData)) {
-                if (configData.contains(splitChar)) {
-                    return configData.split(splitChar);
-                } else {
-                    return new String[]{configData};
-                }
-            }
-        } catch (Throwable e) {
-            DrLog.d(Log.getStackTraceString(e));
-        }
-        return new String[]{};
-    }
 
     public static String nonnullStr(Object obj, String defaultStr) {
         if (obj != null) {

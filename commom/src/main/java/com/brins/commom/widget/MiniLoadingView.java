@@ -1,9 +1,9 @@
 package com.brins.commom.widget;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.Gravity;
-import androidx.annotation.Nullable;
 import com.brins.commom.utils.SystemUtils;
 
 public class MiniLoadingView extends SmallLoadingView {

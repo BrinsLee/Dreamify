@@ -1,6 +1,7 @@
 package com.brins.commom.widget;
 
-import androidx.annotation.IntRange;
+import android.support.annotation.IntRange;
+
 
 /**
  * 用一个整形值保存多个时间值，值的范围：0~255，以后满足不了再扩展。

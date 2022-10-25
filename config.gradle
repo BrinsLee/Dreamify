@@ -1,5 +1,7 @@
 ext {
 
+  packageNameForAPT = "com.brins.customarouter";
+
   androidId = [
       compileSdkVersion: 28,
       buildToolsVersion: "30.0.0",
@@ -27,8 +29,8 @@ ext {
       lifecycle: "2.2.0",
       glide: "4.11.0",
       coroutine: "1.1.1",
-      arouter_api: "1.5.0",
-      arouter_compiler: "1.2.2",
+      arouter_api: "1.5.2",
+      arouter_compiler: "1.5.2",
       lottie: "3.0.7",
       eventbus: "3.1.1",
       room_version: "2.1.0",
@@ -36,14 +38,14 @@ ext {
   ]
 
   supportDeps = [
-      "appcompat": "androidx.appcompat:appcompat:${dependVersion.androidSupportSdkVersion}",
+/*      "appcompat": "androidx.appcompat:appcompat:${dependVersion.androidSupportSdkVersion}",
       "material": "com.google.android.material:material:${dependVersion.androidSupportSdkVersion}",
-      "ktx": "androidx.core:core-ktx:${dependVersion.androidSupportSdkVersion}",
-      "constraintlayout": "androidx.constraintlayout:constraintlayout:${dependVersion.constraintlayoutVersion}",
+      "ktx": "androidx.core:core-ktx:${dependVersion.androidSupportSdkVersion}",*/
+//      "constraintlayout": "androidx.constraintlayout:constraintlayout:${dependVersion.constraintlayoutVersion}",
       "kotlin": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${dependVersion.kotlinVersion}",
-      "lifecycle": "androidx.lifecycle:lifecycle-extensions:${dependVersion.lifecycle}",
-      "lifecycleruntime": "androidx.lifecycle:lifecycle-runtime:${dependVersion.lifecycle}",
-      "lottie": "com.airbnb.android:lottie:${dependVersion.lottie}",
+/*      "lifecycle": "androidx.lifecycle:lifecycle-extensions:${dependVersion.lifecycle}",
+      "lifecycleruntime": "androidx.lifecycle:lifecycle-runtime:${dependVersion.lifecycle}",*/
+//      "lottie": "com.airbnb.android:lottie:${dependVersion.lottie}",
       "eventBus": "org.greenrobot:eventbus:${dependVersion.eventbus}",
 
   ]

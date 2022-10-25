@@ -2,8 +2,8 @@ package com.brins.commom.skin;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
-import androidx.annotation.ColorInt;
-import androidx.annotation.FloatRange;
+import android.support.annotation.ColorInt;
+import android.support.annotation.FloatRange;
 import com.brins.commom.entity.SkinColorType;
 import com.brins.commom.profile.SkinColorLib;
 import com.brins.commom.utils.ImageUtil;

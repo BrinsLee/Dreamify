@@ -1,8 +1,8 @@
 
 package com.brins.commom.preference;
 
+import android.support.annotation.IntRange;
 import android.text.TextUtils;
-import androidx.annotation.IntRange;
 import com.brins.commom.utils.log.DrLog;
 
 public class CommonSettingPrefs extends AbstractSharedPreference {

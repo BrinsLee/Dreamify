@@ -1,0 +1,27 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:loadingView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_loading_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:clickable="true"
+    android:paddingBottom="@dimen/playing_bar_height_without_shadow">
+
+    <include
+        android:id="@+id/progress_info"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        layout="@layout/loading" />
+
+    <include
+        layout="@layout/comm_navi_top_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"/>
+
+
+</FrameLayout>

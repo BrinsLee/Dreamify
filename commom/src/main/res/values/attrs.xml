@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KGTransTextView">
+        <attr name="enable_click_alpha" format="boolean"></attr>
+        <attr name="normal_status_alpha" format="float"></attr>
+        <attr name="pressed_status_alpha" format="float"></attr>
+        <attr name="drawable_change_enable" format="boolean"></attr>
+        <attr name="drawable_gravity_center" format="boolean"></attr>
+    </declare-styleable>
+</resources>

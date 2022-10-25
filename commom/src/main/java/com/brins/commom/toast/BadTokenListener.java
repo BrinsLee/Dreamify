@@ -1,7 +1,8 @@
 package com.brins.commom.toast;
 
+import android.support.annotation.NonNull;
 import android.widget.Toast;
-import androidx.annotation.NonNull;
+
 
 /**
  * @author drakeet

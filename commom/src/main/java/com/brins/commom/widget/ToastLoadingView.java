@@ -1,12 +1,12 @@
 package com.brins.commom.widget;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
-import androidx.annotation.Nullable;
 import com.brins.commom.R;
 import com.kugou.uilib.widget.imageview.KGUIImageView;
 import com.kugou.uilib.widget.textview.KGUITextView;

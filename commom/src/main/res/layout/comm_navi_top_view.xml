@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.brins.commom.widget.CommonAlphaBgImageView
+        android:id="@+id/comm_navi_top_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:skin_enable="true" />
+
+    <ImageView
+        android:id="@+id/comm_navi_top_view2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/kg_navigation_local_height"
+        android:layout_marginTop="-1px"
+        android:minHeight="@dimen/kg_navigation_local_height"
+        android:paddingTop="1px"
+        android:scaleType="matrix"
+        android:visibility="gone"
+        app:skin_enable="true" />
+    <!--marginTop以及paddingTop属性是为了兼容部分机型(小米2s-GZ-DZ20140604-4034)在侧边栏动画时，导致view之间存在空隙-->
+
+</LinearLayout>

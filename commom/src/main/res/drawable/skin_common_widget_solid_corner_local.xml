@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/skin_common_widget" />
+
+    <corners android:radius="@dimen/common_corner_radius_9_0" />
+
+    <stroke
+        android:width="3dp"
+        android:color="#00000000" />
+</shape>

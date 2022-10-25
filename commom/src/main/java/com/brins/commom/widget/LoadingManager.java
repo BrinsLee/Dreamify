@@ -62,6 +62,7 @@ public class LoadingManager {
     public void postTimer(WeakReference<LoadingPresenter.TimerCallback> weakCallback, int timeSpec) {
         removeTimer(weakCallback); // remove before post.
 
+
         int primaryTime = TimeSpec.getPrimaryTime(timeSpec);
         int secondaryTime = TimeSpec.getSecondaryTime(timeSpec);
 

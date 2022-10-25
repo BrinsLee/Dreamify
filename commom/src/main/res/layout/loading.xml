@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.brins.commom.widget.CommonLoadingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:loadingView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    loadingView:iconBg="@drawable/kg_loading_bg_big"
+    loadingView:iconLoading="@drawable/kg_loading_circle_big"
+    loadingView:iconLogo="@drawable/kg_loading_k_big"
+    loadingView:iconPrimaryColor="#0090FF"
+    loadingView:iconSecondaryColor="#FF6C00"
+    loadingView:drawPadding="8dp"
+    loadingView:loadingPrimaryText="@string/loading_tips_primary"
+    loadingView:loadingSecondaryText="@string/loading_tips_secondary"
+    loadingView:loadingTextColor="@color/skin_secondary_text"
+    loadingView:loadingTextMode="bottom"
+    loadingView:loadingTextSize="12sp"
+    loadingView:loadingPosition="normal"
+    app:skin_enable="true"
+    />

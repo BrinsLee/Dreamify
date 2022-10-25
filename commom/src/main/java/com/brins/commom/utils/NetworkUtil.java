@@ -16,6 +16,7 @@ import android.util.Log;
 import android.view.View;
 import com.brins.commom.R;
 import com.brins.commom.app.DRCommonApplication;
+import com.brins.commom.base.AbsFrameworkFragment;
 import com.brins.commom.entity.NetworkType;
 import com.brins.commom.utils.log.DrLog;
 import java.net.InetAddress;

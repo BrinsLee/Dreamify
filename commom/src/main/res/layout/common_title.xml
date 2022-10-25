@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fx_common_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/transparent">
+
+    <RelativeLayout
+        android:id="@+id/fx_common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true">
+
+        <com.brins.commom.widget.AlphaImageView
+            android:id="@+id/fx_common_title_back"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/skin_background_borderless_ripple"
+            android:contentDescription="返回"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/svg_kg_common_ic_title_bar_back"
+            app:skin_color_src="@color/skin_title_primary_color"
+            app:skin_enable="true" />
+
+
+        <LinearLayout
+            android:id="@+id/fx_common_title_center_layout"
+            android:layout_width="146dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.brins.commom.widget.KGTransTextView
+                android:id="@+id/fx_common_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/skin_title_primary_color"
+                android:textSize="18dp"
+                app:skin_enable="true" />
+
+            <com.brins.commom.widget.AlphaImageView
+                android:id="@+id/fx_common_title_down_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/fx_live_classify_down_icon"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.brins.commom.widget.KGTransTextView
+            android:id="@+id/fx_common_title_extra_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/skin_title_primary_color"
+            android:textSize="16dp"
+            android:visibility="gone"
+            app:skin_enable="true" />
+
+        <RelativeLayout
+            android:id="@+id/fx_right_outer"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true">
+
+            <com.brins.commom.widget.AlphaImageView
+                android:id="@+id/fx_common_title_more"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+
+                android:scaleType="centerInside"
+                android:src="@drawable/fx_common_title_more" />
+
+            <CheckBox
+                android:id="@+id/fa_manager_viewer_title_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="13dp"
+                android:button="@null"
+                android:text="编辑"
+                android:textColor="@color/skin_title_primary_color"
+                android:textSize="16sp"
+                android:visibility="gone"
+                app:skin_color_src="@color/skin_title_primary_color"
+                app:skin_enable="true" />
+        </RelativeLayout>
+
+        <com.brins.commom.widget.AlphaImageView
+            android:id="@+id/fx_common_title_filter"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/fx_common_title_more"
+            android:scaleType="centerInside"
+            android:src="@drawable/fx_title_filter_icon"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/fx_sort_out"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/fx_right_outer">
+
+            <android.widget.ImageView
+                android:id="@+id/fx_common_title_filter_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <com.brins.commom.widget.KGTransTextView
+            android:id="@+id/fx_common_title_filter_text"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/fx_right_outer"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/skin_title_primary_color"
+            android:textSize="13sp"
+            android:visibility="gone"
+            app:skin_enable="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
